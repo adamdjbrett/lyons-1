@@ -5,7 +5,7 @@ image: assets/img/portfolio/02-full.jpg
 alt: Keep Exploring
 
 caption:
-  title: Explore
+  title: Depression
   subtitle: Graphic Design
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 ---
@@ -15,4 +15,3 @@ Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur 
 - Date: January 2017
 - Client: Explore
 - Category: Graphic Design
-
