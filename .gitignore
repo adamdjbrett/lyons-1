@@ -1,5 +1,18 @@
-_site
-.sass-cache
-.jekyll-metadata
-.jekyll-cache
+
+# Created by https://www.toptal.com/developers/gitignore/api/jekyll
+# Edit at https://www.toptal.com/developers/gitignore?templates=jekyll
+
+### Jekyll ###
 Gemfile.lock
+_site/
+vendor/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+.icloud
+.DS_Store
+*.gem
+*.rb
+
+# End of https://www.toptal.com/developers/gitignore/api/jekyll
