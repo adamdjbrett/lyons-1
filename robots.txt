@@ -1,0 +1,8 @@
+# lyonsbehavioralservices.com/
+
+# Allow crawling of all content
+User-agent: *
+Disallow: /credits
+Disallow: /legal
+
+Sitemap: http://lyonsbehavioralservices.com/sitemap.xml
