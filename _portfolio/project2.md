@@ -1,15 +1,15 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: Depression
+subtitle: Cognitive Behavioral Treatment for Depression.
 image: assets/img/portfolio/02-full.jpg
 alt: Keep Exploring
 
 caption:
   title: Depression
-  subtitle: Graphic Design
+  subtitle: Cognitive Behavioral Treatment
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+Utilize Cognitive Behavioral Treatment approach by examining thoughts, emotions, and behaviors that are maladaptive and impact functioning.  The client will learn and utilize effective coping skills and work on changing maladaptive thoughts, emotions, and behaviors as necessary.  I take a holistic approach and hope to achieve balance in a person’s life so the three domains that I focus on are mind, body, and spirit.
 
 {:.list-inline}
 - Date: January 2017

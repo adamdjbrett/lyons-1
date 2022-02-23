@@ -18,17 +18,17 @@ en: &DEFAULT_EN
 
   services:
     title: "Specialties"
-    text: "I administer individual psychotherapy for adult and adolescent populations struggling with mental health issues."
+    text: "I administer individual and couple’s psychotherapy for adult and adolescent populations struggling with mental health issues, as well as provide psychological testing for adult and adolescent populations."
     section: services
     list:
       - title: "Diagnostic evaluations"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "To diagnose and discover what underlying mental health issues a person is experiencing and struggling with that interferes with their daily functioning in a variety of domains.  These include but are not limited to occupational, school, as well as interpersonal relationships."
         icon: fas fa-lightbulb #find more at https://fontawesome.com/icons
       - title: "Crisis Interventions"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "To identify and aid individuals who are experiencing a crisis in their life that negatively impacts overall functioning, and to help improve their level of functioning by processing feelings and teaching effective coping strategies that allow the individual to manage their situation in a more effective manner."
         icon: fas fa-cloud-showers-heavy
       - title: "Psychotherapy"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "Talk therapy is when an individual or couple work with a professional clinician in order to identify, discuss, and process mental health issues that are negatively impacting a person’s daily life functioning and/or relationships.  This process is facilitated in a safe space where the client(s) can learn to develop effective coping skills that will allow them to manage and reduce maladaptive thoughts, emotions, and behaviors."
         icon: fas fa-users
 
   portfolio:
@@ -70,8 +70,8 @@ en: &DEFAULT_EN
 
   about:
     title: "About"
-    text: "Lyons Behaviorial Services."
-    body: "Further description about the goal of the practice"
+    text: "Montgomery Lyons, PsyD."
+    body: "I have been training in psychology for over 10 years, and have been a licensed clinical psychologist in the state of New York for 2 years.  I have worked with most demographics of individuals from latency to geriatric populations, and have been trained in a variety of therapeutic techniques.  The therapeutic approach that I most gravitate toward is cognitive behavioral therapy; However, I also utilize the humanistic as well as the psychodynamic approach when necessary.  Furthermore, being Native American and growing up on the Onondaga Reservation has given me a cultural awareness and sensitivity that is necessary in this field.  It is my belief that the client's needs must always come first and foremost, which has been my guiding force in providing psychotherapy and other psychological services.  My goal is to empower individuals and provide the necessary skills that enable individuals to manage, reduce, and cope with maladaptive symptoms in a way that will allow a person to lead their best life."
     section: about
 
   clients:
