@@ -1,15 +1,16 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: Anxiety
+subtitle: Supportive therapy and techniques.
 image: assets/img/portfolio/03-full.jpg
 alt:
 
 caption:
   title: Anxiety
-  subtitle: Identity
+  subtitle: various techniques and approaches
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+Utilize a variety of techniques and approaches in treating anxiety.  These include, but are not limited to, guided meditations, relaxed breathing techniques, supportive therapy, as well as provide other coping skills that will help to decrease an individual’s anxiety symptoms.
+
 
 {:.list-inline}
 - Date: January 2017
