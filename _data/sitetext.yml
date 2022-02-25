@@ -74,6 +74,22 @@ en: &DEFAULT_EN
     body: "I have been training in psychology for over 10 years, and have been a licensed clinical psychologist in the state of New York for 2 years.  I have worked with most demographics of individuals from latency to geriatric populations, and have been trained in a variety of therapeutic techniques.  The therapeutic approach that I most gravitate toward is cognitive behavioral therapy; However, I also utilize the humanistic as well as the psychodynamic approach when necessary.  Furthermore, being Native American and growing up on the Onondaga Reservation has given me a cultural awareness and sensitivity that is necessary in this field.  It is my belief that the client's needs must always come first and foremost, which has been my guiding force in providing psychotherapy and other psychological services.  My goal is to empower individuals and provide the necessary skills that enable individuals to manage, reduce, and cope with maladaptive symptoms in a way that will allow a person to lead their best life."
     section: about
 
+  faq:
+    title: "FAQ"
+    text: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
+    section: faq
+    cards:
+      - title: "Collapsible Group Item #1"
+        desc: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
+        id: "collapseOne"
+        btn_class: "show"
+      - title: "Collapsible Group Item #2"
+        desc: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
+        id: "collapseTwo"
+      - title: "Collapsible Group Item #3"
+        desc: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
+        id: "collapseThree"
+
   clients:
     section: clients
     max-height: 100px

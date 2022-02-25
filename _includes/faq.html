@@ -1,0 +1,30 @@
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].faq.section | default: "faq" }}">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].faq.title | markdownify | default: "faq" }}</h2>
+				<h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].faq.text | markdownify }}</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div id="accordion">
+				{%- for card in site.data.sitetext[site.locale].faq.cards -%}
+				<div class="card">
+					<div class="card-header" id="{{ card.title }}">
+						<h5 class="mb-0">
+							<button class="btn btn-link" data-toggle="collapse" data-target="#{{ card.id }}" aria-expanded="false" aria-controls="{{ card.id }}">
+								{{ card.title }}
+							</button>
+						</h5>
+					</div>
+					<div id="{{ card.id }}" class="collapse {{ card.btn_class }}" aria-labelledby="{{ card.title }}" data-parent="#accordion">
+						<div class="card-body">
+							{{ card.desc }}
+						</div>
+					</div>
+				</div>
+				 {% endfor %}
+			</div>
+		</div>
+	</div>
+</section>
