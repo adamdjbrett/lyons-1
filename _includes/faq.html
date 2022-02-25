@@ -1,62 +1,30 @@
-<div class="accordion w-100" id="basicAccordion">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-        data-mdb-target="#basicAccordionCollapseOne" aria-expanded="false"
-        aria-controls="collapseOne">
-        Question #1
-      </button>
-    </h2>
-    <div id="basicAccordionCollapseOne" class="accordion-collapse collapse"
-      aria-labelledby="headingOne" data-mdb-parent="#basicAccordion" style="">
-      <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default,
-        until the collapse plugin adds the appropriate classes that we use to style each
-        element. These classes control the overall appearance, as well as the showing and
-        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-        our default variables. It's also worth noting that just about any HTML can go within
-        the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-        data-mdb-target="#basicAccordionCollapseTwo" aria-expanded="false"
-        aria-controls="collapseTwo">
-        Question #2
-      </button>
-    </h2>
-    <div id="basicAccordionCollapseTwo" class="accordion-collapse collapse"
-      aria-labelledby="headingTwo" data-mdb-parent="#basicAccordion" style="">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default,
-        until the collapse plugin adds the appropriate classes that we use to style each
-        element. These classes control the overall appearance, as well as the showing and
-        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-        our default variables. It's also worth noting that just about any HTML can go within
-        the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-        data-mdb-target="#basicAccordionCollapseThree" aria-expanded="false"
-        aria-controls="collapseThree">
-        Question #3
-      </button>
-    </h2>
-    <div id="basicAccordionCollapseThree" class="accordion-collapse collapse"
-      aria-labelledby="headingThree" data-mdb-parent="#basicAccordion" style="">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default,
-        until the collapse plugin adds the appropriate classes that we use to style each
-        element. These classes control the overall appearance, as well as the showing and
-        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-        our default variables. It's also worth noting that just about any HTML can go within
-        the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-</div>
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].faq.section | default: "faq" }}">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].faq.title | markdownify | default: "faq" }}</h2>
+				<h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].faq.text | markdownify }}</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div id="accordion">
+				{%- for card in site.data.sitetext[site.locale].faq.cards -%}
+				<div class="card">
+					<div class="card-header" id="{{ card.title }}">
+						<h5 class="mb-0">
+							<button class="btn btn-link" data-toggle="collapse" data-target="#{{ card.id }}" aria-expanded="false" aria-controls="{{ card.id }}">
+								{{ card.title }}
+							</button>
+						</h5>
+					</div>
+					<div id="{{ card.id }}" class="collapse {{ card.btn_class }}" aria-labelledby="{{ card.title }}" data-parent="#accordion">
+						<div class="card-body">
+							{{ card.desc }}
+						</div>
+					</div>
+				</div>
+				 {% endfor %}
+			</div>
+		</div>
+	</div>
+</section>
