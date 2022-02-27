@@ -1,0 +1,84 @@
+backend:
+  name: github
+  repo: NextGenMed/FKDesign
+    
+#  name: git-gateway
+#  branch: master # 
+#  repo: vosaul/findketamine
+media_folder: "assets/img/"
+public_folder: "assets/img/"
+publish_mode: editorial_workflow
+collections:
+  - label: "Parts"
+    name: "parts"
+    files:
+
+      - name: "navigation"
+        label: "navigation menu"
+        file: "_data/navigation.yml"
+        fields:
+        - label: "en"
+          name: "en"
+          widget: "object"
+          fields:
+          - label: "nav"
+            name: "nav"
+            widget: "list"
+            fields: 
+            - { label: "title", name: "title", widget: "string" }
+            - { label: "section",  name: "section",  widget: "string" }
+        - label: "es"
+          name: "es"
+          widget: "object"
+          fields:
+          - label: "nav"
+            name: "nav"
+            widget: "list"
+            fields: 
+            - { label: "title", name: "title", widget: "string" }
+            - { label: "section",  name: "section",  widget: "string" }
+
+      - name: "sitetext"
+        label: "site text"
+        file: "_data/sitetext.yml"
+        fields:
+
+        - label: "en"
+          name: 'en'
+          widget: 'object'
+          fields: 
+          - label: header
+            name: header
+            widget: object
+            fields:
+            - label: title
+              name: title
+              widget: string
+            - label: text
+              name: text
+              widget: text
+            - label: button
+              name: button
+              widget: string
+            - label: buttonlink
+              name: buttonlink
+              widget: string
+
+#        - label: services
+#          name: services
+#          widget: object
+#            fields:
+#            - label: title
+#              name: title
+#              widget: string
+#            - label: text
+#              name: text
+#              widget: text
+#            - label: section
+#              name: section
+#              widget: string
+#            - label: list
+#              widget: list
+#              name: list
+#              fields:
+#              
