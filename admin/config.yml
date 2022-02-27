@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: NextGenMed/FKDesign
+  repo: vosaul/lyons
     
 #  name: git-gateway
 #  branch: master # 
