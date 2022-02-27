@@ -1,0 +1,269 @@
+backend:
+  name: github
+  repo: adamdjbrett/lyons-1
+  branch: master
+  
+#  name: git-gateway
+#  branch: master # 
+media_folder: "/assets/img/"
+public_folder: "/assets/img/"
+publish_mode: editorial_workflow
+collections:
+- label: "Parts"
+  name: "parts"
+  files:
+
+  - name: "navigation"
+    label: "navigation menu"
+    file: "_data/navigation.yml"
+    fields:
+    - label: "en"
+      name: "en"
+      widget: "object"
+      fields:
+      - label: "nav"
+        name: "nav"
+        widget: "list"
+        fields: 
+        - { label: "title", name: "title", widget: "string" }
+        - { label: "section",  name: "section",  widget: "string" }
+    - label: "es"
+      name: "es"
+      widget: "object"
+      fields:
+      - label: "nav"
+        name: "nav"
+        widget: "list"
+        fields: 
+        - { label: "title", name: "title", widget: "string" }
+        - { label: "section",  name: "section",  widget: "string" }
+
+  - name: "sitetext"
+    label: "site text"
+    file: "_data/sitetext.yml"
+    fields:
+
+    - label: "en"
+      name: 'en'
+      widget: 'object'
+      fields: 
+      - label: header
+        name: header
+        widget: object
+        fields:
+        - label: title
+          name: title
+          widget: string
+        - label: text
+          name: text
+          widget: text
+        - label: button
+          name: button
+          widget: string
+        - label: buttonlink
+          name: buttonlink
+          widget: string
+
+      - name: services
+        widget: object
+        fields:
+        - name: title
+          widget: string
+        - name: text
+          widget: text
+        - name: section
+          widget: string
+          default: services
+        - name: list
+          widget: list
+          fields:
+          - name: title
+            widget: string
+          - name: desc
+            widget: text
+          - name: icon
+            widget: string
+
+      - name: portfolio
+        widget: object
+        fields:
+        - name: title
+          widget: string
+        - name: text
+          widget: text
+        - name: section
+          widget: string
+          default: portfolio
+        - name: closebutton
+          widget: string
+
+      - name: timeline
+        widget: object
+        fields:
+        - name: title
+          widget: string
+        - name: text
+          widget: text
+        - name: section
+          widget: string
+          default: timeline
+        - name: events
+          widget: list
+          fields: 
+          - name: title
+            widget: string
+          - name: year
+            widget: string
+          - name: desc
+            widget: text
+          - name: image
+            widget: string
+          - name: alt
+            widget: string
+            required: false
+            default: timeline
+        - name: end
+          widget: string
+          
+      - name: about
+        widget: object
+        fields:
+        - name: title
+          widget: string
+        - name: text
+          widget: string
+        - name: body
+          widget: text
+        - name: section
+          widget: string
+
+      - name: clients
+        widget: object
+        fields:
+        - name: section
+          widget: string
+        - name: max-height
+          widget: string
+        - name: horizontal-scrolling
+          widget: select
+          options: [yes, no]
+        - name: list
+          widget: list
+          fields:
+          - name: title
+            widget: string
+          - name: url
+            widget: string
+          - name: logo
+            widget: string
+
+      - name: team
+        widget: object
+        fields: 
+        - name: title
+          widget: string
+        - name: text
+          widget: string
+        - name: subtext
+          widget: text
+        - name: section
+          widget: string
+        - name: people
+          widget: list
+          fields: 
+          - name: name
+            widget: string
+          - name: role
+            widget: string
+          - name: image
+            widget: string
+          - name: social
+            widget: list
+            fields:
+            - name: url
+              widget: string
+            - name: icon
+              widget: string
+                
+      - name: contact
+        widget: object
+        fields:
+        - name: title
+          widget: string
+        - name: text
+          widget: string
+        - name: section
+          widget: string
+        - name: name
+          widget: string
+        - name: name-validation
+          widget: string
+        - name: email
+          widget: string
+        - name: email-validation
+          widget: string
+        - name: phone
+          widget: string
+        - name: phone-validation
+          widget: string
+        - name: message
+          widget: string
+        - name: message-validation
+          widget: string
+        - name: subject
+          widget: string
+        - name: submit
+          widget: string
+            
+      - name: footer
+        widget: object
+        fields:
+        - name: legal
+          widget: string
+        - name: social
+          widget: list
+          fields:
+          - name: url
+            widget: string
+          - name: icon
+            widget: string
+
+  - name: "style"
+    label: "style"
+    file: "_data/style.yml"
+    fields:
+  #Color Customization
+    - label: "highlight"
+      name: 'highlight'
+      widget: 'color'
+    - label: "white"
+      name: 'white'
+      widget: 'color'
+    - label: "black"
+      name: 'black'
+      widget: 'color'
+  #Image Customization
+    - label: "header-image"
+      name: 'header-image'
+      widget: 'image'
+    - label: "contact-image"
+      name: 'contact-image'
+      widget: 'image'
+
+- name: "portfolio_collection"
+  label: "portfolio_collection"
+  folder: "/_portfolio" 
+  create: true
+  fields:
+    - { label: 'Title', name: 'title', widget: 'string' }
+    - { label: 'subtitle', name: 'subtitle', widget: 'string', required: false }
+    - { label: "image", name: "image", widget: "string"}
+    - { label: 'alt', name: 'alt', widget: 'string', required: false}
+    - label: caption
+      name: caption
+      widget: object
+      fields:
+      - { label: 'title', name: 'title', widget: 'string'}
+      - { label: 'subtitle', name: 'subtitle', widget: 'string' }
+      - { label: 'thumbnail', name: 'thumbnail', widget: 'string' }
+    - { label: 'Body', name: 'body', widget: 'markdown'}

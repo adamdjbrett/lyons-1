@@ -1,0 +1,52 @@
+---
+sitemap: false
+layout: none
+---
+<!-- admin/index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon" />
+  <title>Content Manager</title>
+</head>
+
+<body>
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+
+ <!-- video vidget for posts and pages -->
+<script>
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "video",
+    // Visible label
+    label: "Video",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [{ name: 'url', label: 'Video URL', widget: 'file' },
+             { name: 'img', label: 'Video poster', widget: 'image' }],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^video (\S+)$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function (match) {
+      return {
+        id: match[1]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function (obj) {
+      return '<video width="800" src="/assets/video/' + obj.url + '" type="video/mp4" controls' + ' poster = "/assets/img/' + obj.img + '"></video >';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function (obj) {
+      return '<video width="800" src="/assets/video/' + obj.url + '" type="video/mp4" controls' + ' poster = "/assets/img/' + obj.img + '"></video >';
+    }
+  });
+</script>
+
+</body>
+
+</html>

@@ -47,22 +47,22 @@ en: &DEFAULT_EN
       - title: "Our Humble Beginnings"
         year: "2009-2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+        image: /assets/img/timeline/1.jpg
         alt:
       - title: "An Agency is Born"
         year: "March 2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+        image: /assets/img/timeline/2.jpg
         alt:
       - title: "Jekyll Theme is created"
         year: "2019"
         desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
+        image: /assets/img/timeline/3.jpg
         alt: image alt text
       - title: "Title"
         year: "2009-2011"
         desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+        image: /assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
@@ -74,21 +74,21 @@ en: &DEFAULT_EN
     body: "I have been training in psychology for over 10 years, and have been a licensed clinical psychologist in the state of New York for 2 years.  I have worked with most demographics of individuals from latency to geriatric populations, and have been trained in a variety of therapeutic techniques.  The therapeutic approach that I most gravitate toward is cognitive behavioral therapy; However, I also utilize the humanistic as well as the psychodynamic approach when necessary.  Furthermore, being Native American and growing up on the Onondaga Reservation has given me a cultural awareness and sensitivity that is necessary in this field.  It is my belief that the client's needs must always come first and foremost, which has been my guiding force in providing psychotherapy and other psychological services.  My goal is to empower individuals and provide the necessary skills that enable individuals to manage, reduce, and cope with maladaptive symptoms in a way that will allow a person to lead their best life."
     section: about
 
-  faq:
-    title: "FAQ"
-    text: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
-    section: faq
-    cards:
-      - title: "Collapsible Group Item #1"
-        desc: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
-        id: "collapseOne"
-        btn_class: "show"
-      - title: "Collapsible Group Item #2"
-        desc: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
-        id: "collapseTwo"
-      - title: "Collapsible Group Item #3"
-        desc: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
-        id: "collapseThree"
+#  faq:
+#    title: "FAQ"
+#    text: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
+#    section: faq
+#    cards:
+#      - title: "Collapsible Group Item #1"
+#        desc: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
+#        id: "collapseOne"
+#        btn_class: "show"
+#      - title: "Collapsible Group Item #2"
+#        desc: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
+#        id: "collapseTwo"
+#      - title: "Collapsible Group Item #3"
+#        desc: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
+#        id: "collapseThree"
 
   clients:
     section: clients
@@ -97,16 +97,16 @@ en: &DEFAULT_EN
     list:
       - title: "Syracuse University"
         url: https://syracuse.edu
-        logo: assets/img/schools/syracuse-university.png
+        logo: /assets/img/schools/syracuse-university.png
       - title: "William James College"
         url: https://www.williamjames.edu/
-        logo: assets/img/schools/wjc.png
+        logo: /assets/img/schools/wjc.png
       - title: "themeforest"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
+        logo: /assets/img/clients/themeforest.jpg
       - title: "Creative Market"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+        logo: /assets/img/clients/creative-market.jpg
 
   team:
     title: "ABOUT ME"
@@ -116,7 +116,7 @@ en: &DEFAULT_EN
     people:
       - name: "Montgomery Lyons"
         role: "Clinical Psychologist"
-        image: assets/img/team/lyons-linkedin.jpg
+        image: /assets/img/team/lyons-linkedin.jpg
         social:
           - url: mailto:hello@lyonsbehaviorialservices.com
             icon: fas fa-envelope
@@ -126,7 +126,7 @@ en: &DEFAULT_EN
 #            icon: fab fa-twitter
 #      - name: "Larry Parker"
 #        role: "Lead Marketer"
-#        image: assets/img/team/2.jpg
+#        image: /assets/img/team/2.jpg
 #        social:
 #          - url: https://twitter.com
 #            icon: fab fa-twitter
@@ -136,7 +136,7 @@ en: &DEFAULT_EN
 #            icon: fab fa-linkedin-in
 #      - name: "Diana Perterson"
 #        role: "Lead Developer"
-#        image: assets/img/team/500x500.jpg
+#        image: /assets/img/team/500x500.jpg
 #        social:
 #          - url: https://twitter.com
 #            icon: fab fa-twitter
@@ -223,22 +223,22 @@ es: &DEFAULT_ES
       - title: "Nuestro Humilde Comienzo"
         year: "2009-2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+        image: /assets/img/timeline/1.jpg
         alt:
       - title: "Una Agencia nace"
         year: "March 2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+        image: /assets/img/timeline/2.jpg
         alt:
       - title: "La plantilla Jekyll es creada"
         year: "2019"
         desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
+        image: /assets/img/timeline/3.jpg
         alt: image alt text
       - title: "Título"
         year: "2009-2011"
         desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
+        image: /assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
@@ -257,16 +257,16 @@ es: &DEFAULT_ES
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
+        logo: /assets/img/clients/envato.jpg
       - title: "designmodo"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
+        logo: /assets/img/clients/designmodo.jpg
       - title: "themeforest"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
+        logo: /assets/img/clients/themeforest.jpg
       - title: "Creative Market"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+        logo: /assets/img/clients/creative-market.jpg
 
   team:
     title: "NUESTRO INCREÍBLE EQUIPO"
@@ -276,7 +276,7 @@ es: &DEFAULT_ES
     people:
       - name: "Kay Garland"
         role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -286,7 +286,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
       - name: "Larry Parker"
         role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+        image: /assets/img/team/2.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -296,7 +296,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
       - name: "Diana Perterson"
         role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
