@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: vosaul/lyons
-  branch: vs-dev
+  repo: adamdjbrett/lyons-1
+  branch: master
   
 #  name: git-gateway
 #  branch: master # 
