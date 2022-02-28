@@ -1,10 +1,11 @@
 backend:
-  name: github
+  #name: github
   repo: adamdjbrett/lyons-1
-  branch: master
-  
+  name: git-gateway
+  branch: master #
+
 #  name: git-gateway
-#  branch: master # 
+#  branch: master #
 media_folder: "/assets/img/"
 public_folder: "/assets/img/"
 publish_mode: editorial_workflow
@@ -24,7 +25,7 @@ collections:
       - label: "nav"
         name: "nav"
         widget: "list"
-        fields: 
+        fields:
         - { label: "title", name: "title", widget: "string" }
         - { label: "section",  name: "section",  widget: "string" }
     - label: "es"
@@ -34,7 +35,7 @@ collections:
       - label: "nav"
         name: "nav"
         widget: "list"
-        fields: 
+        fields:
         - { label: "title", name: "title", widget: "string" }
         - { label: "section",  name: "section",  widget: "string" }
 
@@ -46,7 +47,7 @@ collections:
     - label: "en"
       name: 'en'
       widget: 'object'
-      fields: 
+      fields:
       - label: header
         name: header
         widget: object
@@ -109,7 +110,7 @@ collections:
           default: timeline
         - name: events
           widget: list
-          fields: 
+          fields:
           - name: title
             widget: string
           - name: year
@@ -124,7 +125,7 @@ collections:
             default: timeline
         - name: end
           widget: string
-          
+
       - name: about
         widget: object
         fields:
@@ -159,7 +160,7 @@ collections:
 
       - name: team
         widget: object
-        fields: 
+        fields:
         - name: title
           widget: string
         - name: text
@@ -170,7 +171,7 @@ collections:
           widget: string
         - name: people
           widget: list
-          fields: 
+          fields:
           - name: name
             widget: string
           - name: role
@@ -184,7 +185,7 @@ collections:
               widget: string
             - name: icon
               widget: string
-                
+
       - name: contact
         widget: object
         fields:
@@ -214,7 +215,7 @@ collections:
           widget: string
         - name: submit
           widget: string
-            
+
       - name: footer
         widget: object
         fields:
@@ -252,7 +253,7 @@ collections:
 
 - name: "portfolio_collection"
   label: "portfolio_collection"
-  folder: "/_portfolio" 
+  folder: "/_portfolio"
   create: true
   fields:
     - { label: 'Title', name: 'title', widget: 'string' }
