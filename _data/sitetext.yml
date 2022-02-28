@@ -44,26 +44,41 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "CHE Behavioral Health Services"
+        year: "4/2020––Current"
+        desc: "Working with the geriatric population has allowed me to gain a better knowledge and understanding of how to assist individuals who are dealing with issues where there is no cure, such as terminal illness and end of life issues."
         image: /assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        alt: image alt text
+      - title: "McLean Hospital"
+        year: "9/2018––9/2019"
+        desc: "During this fellowship I learned a lot about how substance use and mental illness are intertwined, and the most important lesson that I took away from this experience is that there is no one “correct” approach because each case is unique and as such the treatment plans that created the best outcomes must be tailored to each unique individual."
         image: /assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        alt: image alt text
+      - title: "Brockton Area Multi Services (BAMSI)"
+        year: "8/2016––6/2018"
+        desc: "Working with individuals who have traumatic brain injuries and cognitive disabilities have a tremendous impact on their mental health status, and because of that factor group therapies and treatments for these individuals must be adjusted and tailored in order to fit their needs to achieve the best outcome.  I also learned how provide neuropsychological assessments for this population navigating their impairments due to traumatic brain injury and/or lower cognitive functioning."
         image: /assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+      - title: "Metrowest Medical Center (Partial Hospital Program)"
+        year: "8/2015––5/2016"
+        desc: "This experience helped me grow as a clinician by teaching me how to facilitate group therapy to not only individuals with mental illness, but also to individuals who were suffering from substance use issues combined with mental health issues."
         image: /assets/img/timeline/4.jpg
-        alt:
+        alt: image alt text
+      - title: "Burncoat Family Center"
+        year: "9/2014––6/2015"
+        desc: "Providing acute treatment for latency and adolescents helped me grow as a clinician because I had to learn how to effectively provide support and manage maladaptive symptoms in a very short period of time."
+        image: /assets/img/timeline/4.jpg
+        alt: image alt text
+      - title: "Conditt Psychological Services "
+        year: "7-12/2013"
+        desc: "In this environment I was able to learn how to provide support for a variety of populations, and also learned how to provide neuropsychological evaluations in a real-world clinical setting."
+        image: /assets/img/timeline/4.jpg
+        alt: image alt text
+      - title: "G&G Holistic Addiction Treatment Center"
+        year: "10/2009-5/2010"
+        desc: "As a recovery coach I was able to directly interact with all patients experiencing substance use issues and experience every part of the process.  I learned how effective treatment encompassed treating the whole individual in all aspects of their life, not just the substance use issue."
+        image: /assets/img/timeline/4.jpg
+        alt: image alt text
         # you can enforce the alignment
         align: right
     end: "Be Part <br> of Our <br> Story!"
