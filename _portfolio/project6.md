@@ -2,7 +2,7 @@
 title: "Interpersonal Conflict/Couples Counseling"
 subtitle: Lorem ipsum dolor sit amet consectetur.
 image: assets/img/portfolio/05-counseling-taylor-hernandez-NK-N6coeI5Y-unsplash.jpg
-alt:
+alt: couples drinking coffee
 
 caption:
   title: Couples Counseling

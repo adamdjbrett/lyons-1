@@ -2,7 +2,7 @@
 title: Depression
 subtitle: Cognitive Behavioral Treatment for Depression.
 image: assets/img/portfolio/06-depression-anh-nguyen-v-NBXj3Yv5o-unsplash.jpg
-alt: Keep Exploring
+alt: A woman drinking coffee
 
 caption:
   title: Depression

@@ -2,7 +2,7 @@
 title: Anxiety
 subtitle: Supportive therapy and techniques.
 image: assets/img/portfolio/02-anxiety-kyle-broad-P9rQn2qcEV0-unsplash.jpg
-alt:
+alt: A woman looking into the distance
 
 caption:
   title: Anxiety

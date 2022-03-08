@@ -2,7 +2,7 @@
 title: Addictions
 subtitle: Addictions and Substance use Disorders
 image: assets/img/portfolio/01-addiction-kychan-KkLeFcRj1Zk-unsplash.jpg
-alt: Shirts on a hanger
+alt: A man smoking a cigarette
 
 caption:
   title: Addiction

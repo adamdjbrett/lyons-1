@@ -2,7 +2,7 @@
 title: Trauma
 subtitle: EMDR, CBT, Exposure Therapy
 image: assets/img/portfolio/07-trauma-susan-wilkinson-EDJKEXFbzHA-unsplash.jpg
-alt:
+alt: Fridge magnets with keywords for trauma therapy
 
 caption:
   title: Trauma

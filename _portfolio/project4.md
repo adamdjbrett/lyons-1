@@ -2,7 +2,7 @@
 title: Bipolar Disorder
 subtitle: Cognitive Behavioral Therapy & Dialectical Behavioral Therapy.
 image: assets/img/portfolio/04-bipolar-iulia-mihailov-Ki1SlvmcswM-unsplash.jpg
-alt:
+alt: a man holding a wooden mask
 
 caption:
   title: Bipolar Disorder
