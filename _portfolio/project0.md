@@ -17,9 +17,3 @@ caption:
 - Memory issues
 - Projective testing
 - Achievement testing
-
-
-{:.list-inline}
-- Date: January 2017
-- Client: Threads
-- Category: Illustration

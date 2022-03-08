@@ -25,3 +25,12 @@ This favicon was generated using the following font:
 
 ## Image Credits
 - Header Photo by <a href="https://unsplash.com/@tybradford?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ty Finck</a> on <a href="https://unsplash.com/s/photos/ithaca?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- portfolio photos from unsplash:
+	- Photo by <a href="https://unsplash.com/@kychan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">kychan</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  - Photo by <a href="https://unsplash.com/@kylebroad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kyle Broad</a> on <a href="https://unsplash.com/@kylebroad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  - Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  - Photo by <a href="https://unsplash.com/@iulia_m?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Iulia Mihailov</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  - Photo by <a href="https://unsplash.com/@taylormae?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">taylor hernandez</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  - Photo by <a href="https://unsplash.com/@pwign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anh Nguyen</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  - Photo by <a href="https://unsplash.com/@susan_wilkinson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Susan Wilkinson</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
