@@ -1,13 +1,13 @@
 ---
 title: Neuropsychological Assessments
 subtitle: Psychological testing for children and adults
-image: assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+image: assets/img/portfolio/03-assessment-annie-spratt-ORDz1m1-q0I-unsplash.jpg
+alt: a child taking an assessment
 
 caption:
   title: Assessments
   subtitle: Neuropsychological psychological testing for children and adults
-  thumbnail: assets/img/portfolio/01-thumbnail.jpg
+  thumbnail: assets/img/portfolio/03-assessment-annie-spratt-ORDz1m1-q0I-unsplash-thumbnail.jpg
 ---
 
 {:.list-inline}
