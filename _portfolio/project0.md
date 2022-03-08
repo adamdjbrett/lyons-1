@@ -6,7 +6,7 @@ alt: a child taking an assessment
 
 caption:
   title: Assessments
-  subtitle: Neuropsychological psychological testing for children and adults
+  subtitle: "Neuropsychological testing for children & adults"
   thumbnail: assets/img/portfolio/03-assessment-annie-spratt-ORDz1m1-q0I-unsplash-thumbnail.jpg
 ---
 
