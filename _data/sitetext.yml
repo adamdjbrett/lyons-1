@@ -167,7 +167,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "For appointments and scheduling call (607) 280-8241.<br /> Our offices are conviently located at <a href="https://goo.gl/maps/wzcTwDqzwWAUU2CB8" target="_blank" rel="noopener, noreferer">416 N. Tioga St. Ithaca, NY 14850</a>."
+    text: "For appointments and scheduling call (607) 280-8241.<br /> Our offices are conviently located at 416 N. Tioga St. Ithaca, NY 14850."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
