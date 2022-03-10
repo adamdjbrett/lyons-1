@@ -126,7 +126,7 @@ en: &DEFAULT_EN
       #  logo: /assets/img/clients/themeforest.jpg
       #- title: "Creative Market"
       #  url: https://github.com/raviriley/agency-jekyll-theme
-      #  logo: 
+      #  logo:
 
   team:
     title: "ABOUT ME"
@@ -167,7 +167,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "For appointments and scheduling call (607) 280-8241.<br /> Our offices are conviently located at 416 N. Tioga St. Ithaca, NY 14850."
+    text: "For appointments and scheduling call (607) 280-8241.<br /> Our offices are conviently located at <a href="https://goo.gl/maps/wzcTwDqzwWAUU2CB8" target="_blank" rel="noopener, noreferer">416 N. Tioga St. Ithaca, NY 14850</a>."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -188,6 +188,8 @@ en: &DEFAULT_EN
         icon: fas fa-envelope
       - url: https://www.linkedin.com/in/montgomery-lyons-69b034199/
         icon: "fab fa-linkedin-in"
+      - url: https://goo.gl/maps/wzcTwDqzwWAUU2CB8
+        icon: "fab fa-google"
 #      - url: https://twitter.com
 #        icon: "fab fa-twitter"
 #      - url: https://example.com
