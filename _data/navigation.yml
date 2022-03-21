@@ -1,60 +1,137 @@
-#
-# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
-#
-# Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
-#
-# How to use:
-# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
-
-# English (default)
-# -----------------
-en: &DEFAULT_EN
+en:
   nav:
-    - title: "Services"
+    - title: Services
       section: services
-    - title: "Portfolio"
+    - title: Portfolio
       section: portfolio
-    - title: "About"
+    - title: About
       section: about
-    - title: "Faq"
+    - title: Faq
       section: faq
-    - title: "Timeline"
+    - title: Timeline
       section: timeline
-    - title: "Team"
+    - title: Team
       section: team
-    - title: "Contact"
+    - title: Contact
       section: contact
-#    - title: "Theme Source"
-#      url: https://github.com/raviriley/agency-jekyll-theme/
+    - title: test
+      section: test
 en-US:
-  <<: *DEFAULT_EN
+  <<:
+    nav:
+      - title: Services
+        section: services
+      - title: Portfolio
+        section: portfolio
+      - title: About
+        section: about
+      - title: Faq
+        section: faq
+      - title: Timeline
+        section: timeline
+      - title: Team
+        section: team
+      - title: Contact
+        section: contact
 en-CA:
-  <<: *DEFAULT_EN
+  <<:
+    nav:
+      - title: Services
+        section: services
+      - title: Portfolio
+        section: portfolio
+      - title: About
+        section: about
+      - title: Faq
+        section: faq
+      - title: Timeline
+        section: timeline
+      - title: Team
+        section: team
+      - title: Contact
+        section: contact
 en-GB:
-  <<: *DEFAULT_EN
+  <<:
+    nav:
+      - title: Services
+        section: services
+      - title: Portfolio
+        section: portfolio
+      - title: About
+        section: about
+      - title: Faq
+        section: faq
+      - title: Timeline
+        section: timeline
+      - title: Team
+        section: team
+      - title: Contact
+        section: contact
 en-AU:
-  <<: *DEFAULT_EN
-
-# Spanish
-# -------
-es: &DEFAULT_ES
+  <<:
+    nav:
+      - title: Services
+        section: services
+      - title: Portfolio
+        section: portfolio
+      - title: About
+        section: about
+      - title: Faq
+        section: faq
+      - title: Timeline
+        section: timeline
+      - title: Team
+        section: team
+      - title: Contact
+        section: contact
+es:
   nav:
-    - title: "Servicios"
+    - title: Servicios
       section: servicios
-    - title: "Portafolio"
+    - title: Portafolio
       section: portafolio
-    - title: "Sobre Nosotros"
+    - title: Sobre Nosotros
       section: nosotros
-    - title: "Cronología"
+    - title: Cronología
       section: cronologia
-    - title: "Equipo"
+    - title: Equipo
       section: equipo
-    - title: "Contáctenos"
+    - title: Contáctenos
       section: contacto
-    - title: "Fuente de la plantilla"
+    - title: Fuente de la plantilla
       url: https://github.com/raviriley/agency-jekyll-theme/
+      section: test
 es-ES:
-  <<: *DEFAULT_ES
+  <<:
+    nav:
+      - title: Servicios
+        section: servicios
+      - title: Portafolio
+        section: portafolio
+      - title: Sobre Nosotros
+        section: nosotros
+      - title: Cronología
+        section: cronologia
+      - title: Equipo
+        section: equipo
+      - title: Contáctenos
+        section: contacto
+      - title: Fuente de la plantilla
+        url: https://github.com/raviriley/agency-jekyll-theme/
 es-CO:
-  <<: *DEFAULT_ES
+  <<:
+    nav:
+      - title: Servicios
+        section: servicios
+      - title: Portafolio
+        section: portafolio
+      - title: Sobre Nosotros
+        section: nosotros
+      - title: Cronología
+        section: cronologia
+      - title: Equipo
+        section: equipo
+      - title: Contáctenos
+        section: contacto
+      - title: Fuente de la plantilla
+        url: https://github.com/raviriley/agency-jekyll-theme/
