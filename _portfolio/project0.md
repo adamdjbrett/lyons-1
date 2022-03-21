@@ -16,4 +16,3 @@ caption:
 * Memory issues
 * Projective testing
 * Achievement testing
-* Batman
