@@ -101,7 +101,7 @@ en:
   clients:
     section: clients
     max-height: 100px
-    horizontal-scrolling: yes
+    horizontal-scrolling: ""
     list:
       - title: Syracuse University
         url: https://syracuse.edu
@@ -111,7 +111,7 @@ en:
         logo: /assets/img/schools/wjc.png
   header:
     title: Welcome to Lyons Behavioral Services!
-    text: It's Nice To Meet You!
+    text: It's Nice To Meet You
     button: Learn More
     buttonlink: "#services"
   about:
