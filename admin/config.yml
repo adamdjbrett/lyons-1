@@ -148,6 +148,7 @@ collections:
         - name: horizontal-scrolling
           widget: select
           options: [yes, no]
+          required: false
         - name: list
           widget: list
           fields:
