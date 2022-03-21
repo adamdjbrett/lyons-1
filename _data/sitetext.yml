@@ -101,7 +101,7 @@ en:
   clients:
     section: clients
     max-height: 100px
-    horizontal-scrolling: no
+    horizontal-scrolling: yes
     list:
       - title: Syracuse University
         url: https://syracuse.edu
