@@ -1,385 +1,157 @@
-en:
-  contact:
-    section: contact
-    message: Message*
-    email-validation: Please enter your email address.
-    name: Name*
-    subject: Contact Form Submission
-    text: For appointments and scheduling call (607) 280-8241.<br /> Our offices are
-      conviently located at 416 N. Tioga St. Ithaca, NY 14850.
-    phone: Phone Number
-    submit: Send Message
-    phone-validation: Please enter your phone number.
-    title: Contact Us
-    name-validation: Please enter your name.
-    email: Email*
-    message-validation: Please enter a message.
-  timeline:
-    title: Timeline
-    text: Lyons Behavioral Services
-    section: timeline
-    events:
-      - title: Lyons Behavioral Services
-        year: 2022––Current
-        desc: I administer individual and couple’s psychotherapy for adult and
-          adolescent populations struggling with mental health issues, as well
-          as provide psychological testing for adult and adolescent populations.
-        image: /assets/img/timeline/lbs-logo.png
-        alt: Lyons logo
-      - title: CHE Behavioral Health Services
-        year: 4/2020––Current
-        desc: Working with the geriatric population has allowed me to gain a better
-          knowledge and understanding of how to assist individuals who are
-          dealing with issues where there is no cure, such as terminal illness
-          and end of life issues.
-        image: /assets/img/timeline/che.jpg
-        alt: CHE Behavioral Health Services Logo
-      - title: McLean Hospital
-        year: 9/2018––9/2019
-        desc: During this fellowship I learned a lot about how substance use and mental
-          illness are intertwined, and the most important lesson that I took
-          away from this experience is that there is no one “correct” approach
-          because each case is unique and as such the treatment plans that
-          created the best outcomes must be tailored to each unique individual.
-        image: /assets/img/timeline/mclean-hospital.png
-        alt: McLean Hospital Logo
-      - title: Brockton Area Multi Services (BAMSI)
-        year: 8/2016––6/2018
-        desc: Working with individuals who have traumatic brain injuries and cognitive
-          disabilities have a tremendous impact on their mental health status,
-          and because of that factor group therapies and treatments for these
-          individuals must be adjusted and tailored in order to fit their needs
-          to achieve the best outcome.  I also learned how provide
-          neuropsychological assessments for this population navigating their
-          impairments due to traumatic brain injury and/or lower cognitive
-          functioning.
-        image: /assets/img/timeline/bamsi.png
-        alt: BAMSI logo
-      - title: Metrowest Medical Center (Partial Hospital Program)
-        year: 8/2015––5/2016
-        desc: This experience helped me grow as a clinician by teaching me how to
-          facilitate group therapy to not only individuals with mental illness,
-          but also to individuals who were suffering from substance use issues
-          combined with mental health issues.
-        image: /assets/img/timeline/metrowest.jpg
-        alt: Metrowest Medical Center logo
-      - title: Burncoat Family Center
-        year: 9/2014––6/2015
-        desc: Providing acute treatment for latency and adolescents helped me grow as a
-          clinician because I had to learn how to effectively provide support
-          and manage maladaptive symptoms in a very short period of time.
-        image: /assets/img/timeline/burncoat-family-center.png
-        alt: Burncoat decorative image
-      - title: Conditt Psychological Services
-        year: 7-12/2013
-        desc: In this environment I was able to learn how to provide support for a
-          variety of populations, and also learned how to provide
-          neuropsychological evaluations in a real-world clinical setting.
-        image: /assets/img/timeline/conditt.png
-        alt: Conditt Logo
-      - title: G&G Holistic Addiction Treatment Center
-        year: 10/2009-5/2010
-        desc: As a recovery coach I was able to directly interact with all patients
-          experiencing substance use issues and experience every part of the
-          process.  I learned how effective treatment encompassed treating the
-          whole individual in all aspects of their life, not just the substance
-          use issue.
-        image: /assets/img/timeline/gg.png
-        alt: G&G deocrative image
-        align: right
-    end: Be Part <br> of Our <br> Story!
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Welcome to Lyons Behavioral Services!
+    text: It's Nice To Meet You
+    button: Learn More
+    buttonlink: "#services"
+
+  services:
+    title: "Specialties"
+    text: "I administer individual and couple’s psychotherapy for adult and adolescent populations struggling with mental health issues, as well as provide psychological testing for adult and adolescent populations."
+    section: services
+    list:
+      - title: "Diagnostic evaluations"
+        desc: "To diagnose and discover what underlying mental health issues a person is experiencing and struggling with that interferes with their daily functioning in a variety of domains.  These include but are not limited to occupational, school, as well as interpersonal relationships."
+        icon: fas fa-lightbulb #find more at https://fontawesome.com/icons
+      - title: "Crisis Interventions"
+        desc: "To identify and aid individuals who are experiencing a crisis in their life that negatively impacts overall functioning, and to help improve their level of functioning by processing feelings and teaching effective coping strategies that allow the individual to manage their situation in a more effective manner."
+        icon: fas fa-cloud-showers-heavy
+      - title: "Psychotherapy"
+        desc: "Talk therapy is when an individual or couple work with a professional clinician in order to identify, discuss, and process mental health issues that are negatively impacting a person’s daily life functioning and/or relationships.  This process is facilitated in a safe space where the client(s) can learn to develop effective coping skills that will allow them to manage and reduce maladaptive thoughts, emotions, and behaviors."
+        icon: fas fa-users
+
   portfolio:
-    title: Psychotherapy Services
-    text: "Services provided are the following: Diagnostic evaluations, diagnose
-      mental health disorders, mental status evaluations, risk assessments, as
-      well as crisis interventions. My specialties include: substance use
-      disorders, depression, anxiety, bipolar disorder, post-traumatic stress
-      disorder, trauma, and interpersonal conflict. I also work with couples
-      experiencing interpersonal conflict."
+    title: "Psychotherapy Services"
+    text: "Services provided are the following: Diagnostic evaluations, diagnose mental health disorders, mental status evaluations, risk assessments, as well as crisis interventions. My specialties include: substance use disorders, depression, anxiety, bipolar disorder, post-traumatic stress disorder, trauma, and interpersonal conflict. I also work with couples experiencing interpersonal conflict."
     section: portfolio
-    closebutton: Close Services
+    closebutton: "Close Services"
+
+  timeline:
+    title: "Timeline"
+    text: "Lyons Behavioral Services"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Lyons Behavioral Services"
+        year: "2022––Current"
+        desc: "I administer individual and couple’s psychotherapy for adult and adolescent populations struggling with mental health issues, as well as provide psychological testing for adult and adolescent populations."
+        image: /assets/img/timeline/lbs-logo.png
+        alt: "Lyons logo"
+      - title: "CHE Behavioral Health Services"
+        year: "4/2020––Current"
+        desc: "Working with the geriatric population has allowed me to gain a better knowledge and understanding of how to assist individuals who are dealing with issues where there is no cure, such as terminal illness and end of life issues."
+        image: /assets/img/timeline/che.jpg
+        alt: "CHE Behavioral Health Services Logo"
+      - title: "McLean Hospital"
+        year: "9/2018––9/2019"
+        desc: "During this fellowship I learned a lot about how substance use and mental illness are intertwined, and the most important lesson that I took away from this experience is that there is no one “correct” approach because each case is unique and as such the treatment plans that created the best outcomes must be tailored to each unique individual."
+        image: /assets/img/timeline/mclean-hospital.png
+        alt: "McLean Hospital Logo"
+      - title: "Brockton Area Multi Services (BAMSI)"
+        year: "8/2016––6/2018"
+        desc: "Working with individuals who have traumatic brain injuries and cognitive disabilities have a tremendous impact on their mental health status, and because of that factor group therapies and treatments for these individuals must be adjusted and tailored in order to fit their needs to achieve the best outcome.  I also learned how provide neuropsychological assessments for this population navigating their impairments due to traumatic brain injury and/or lower cognitive functioning."
+        image: /assets/img/timeline/bamsi.png
+        alt: "BAMSI logo"
+      - title: "Metrowest Medical Center (Partial Hospital Program)"
+        year: "8/2015––5/2016"
+        desc: "This experience helped me grow as a clinician by teaching me how to facilitate group therapy to not only individuals with mental illness, but also to individuals who were suffering from substance use issues combined with mental health issues."
+        image: /assets/img/timeline/metrowest.jpg
+        alt: "Metrowest Medical Center logo"
+      - title: "Burncoat Family Center"
+        year: "9/2014––6/2015"
+        desc: "Providing acute treatment for latency and adolescents helped me grow as a clinician because I had to learn how to effectively provide support and manage maladaptive symptoms in a very short period of time."
+        image: /assets/img/timeline/burncoat-family-center.png
+        alt: "Burncoat decorative image"
+      - title: "Conditt Psychological Services"
+        year: "7-12/2013"
+        desc: "In this environment I was able to learn how to provide support for a variety of populations, and also learned how to provide neuropsychological evaluations in a real-world clinical setting."
+        image: /assets/img/timeline/conditt.png
+        alt: "Conditt Logo"
+      - title: "G&G Holistic Addiction Treatment Center"
+        year: "10/2009-5/2010"
+        desc: "As a recovery coach I was able to directly interact with all patients experiencing substance use issues and experience every part of the process.  I learned how effective treatment encompassed treating the whole individual in all aspects of their life, not just the substance use issue."
+        image: /assets/img/timeline/gg.png
+        alt: "G&G deocrative image"
+        # you can enforce the alignment
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
+
+  about:
+    title: "About"
+    text: "Montgomery Lyons, PsyD."
+    body: "I have been training in psychology for over 10 years, and have been a licensed clinical psychologist in the state of New York for 2 years.  I have worked with most demographics of individuals from early childhood to geriatric populations, and have been trained in a variety of therapeutic techniques.  The therapeutic approach that I most gravitate toward is cognitive behavioral therapy; however, I also utilize the humanistic as well as the psychodynamic approach when necessary.  Furthermore, being Native American and growing up on the Onondaga Nation has given me a cultural awareness and sensitivity that is necessary in this field.  It is my belief that the client's needs must always come first and foremost, which has been my guiding force in providing psychotherapy and other psychological services.  My goal is to empower individuals and provide the necessary skills that enable individuals to manage, reduce, and cope with maladaptive symptoms in a way that will allow a person to lead their best life."
+    section: about
+
+
   clients:
     section: clients
     max-height: 100px
-    horizontal-scrolling: ""
+    horizontal-scrolling: "" #"yes/no"
     list:
-      - title: Syracuse University
+      - title: "Syracuse University"
         url: https://syracuse.edu
         logo: /assets/img/schools/syracuse-university.png
-      - title: William James College
+      - title: "William James College"
         url: https://www.williamjames.edu/
         logo: /assets/img/schools/wjc.png
-  header:
-    title: Welcome to Lyons Behavioral Services!
-    text: It's Nice To Meet You.
-    button: Learn More
-    buttonlink: "#services"
-  about:
-    title: About
-    text: Montgomery Lyons, PsyD.
-    body: I have been training in psychology for over 10 years, and have been a
-      licensed clinical psychologist in the state of New York for 2 years.  I
-      have worked with most demographics of individuals from early childhood to
-      geriatric populations, and have been trained in a variety of therapeutic
-      techniques.  The therapeutic approach that I most gravitate toward is
-      cognitive behavioral therapy; however, I also utilize the humanistic as
-      well as the psychodynamic approach when necessary.  Furthermore, being
-      Native American and growing up on the Onondaga Nation has given me a
-      cultural awareness and sensitivity that is necessary in this field.  It is
-      my belief that the client's needs must always come first and foremost,
-      which has been my guiding force in providing psychotherapy and other
-      psychological services.  My goal is to empower individuals and provide the
-      necessary skills that enable individuals to manage, reduce, and cope with
-      maladaptive symptoms in a way that will allow a person to lead their best
-      life.
-    section: about
-  footer:
-    legal: Privacy Policy
-    credits: Credits
-    social:
-      - url: mailto:hello@lyonsBehavioralservices.com
-        icon: fas fa-envelope
-      - url: https://www.linkedin.com/in/montgomery-lyons-69b034199/
-        icon: fab fa-linkedin-in
-      - url: https://goo.gl/maps/wzcTwDqzwWAUU2CB8
-        icon: fab fa-google
+
   team:
-    title: ABOUT ME
-    text: Montgomery Lyons is a licensed clinical pyschologist.
-    subtext: I am a licensed Clinical Psychologist. I received a B.A in Psychology
-      from Syracuse University, a Master of Clnical Psychology, and a Doctor of
-      Psychology (Psy.D.) from William James College.
+    title: "ABOUT ME"
+    text: "Montgomery Lyons is a licensed clinical pyschologist."
+    subtext: "I am a licensed Clinical Psychologist. I received a B.A in Psychology from Syracuse University, a Master of Clnical Psychology, and a Doctor of Psychology (Psy.D.) from William James College."
     section: team
     people:
-      - name: Montgomery Lyons
-        role: Clinical Psychologist
+      - name: "Montgomery Lyons"
+        role: "Clinical Psychologist"
         image: /assets/img/team/lyons-linkedin.jpg
         social:
           - url: mailto:hello@lyonsBehavioralservices.com
             icon: fas fa-envelope
           - url: https://linkedin.com/https://www.linkedin.com/in/montgomery-lyons-69b034199/
             icon: fab fa-linkedin-in
-  services:
-    title: Specialties
-    text: I administer individual and couple’s psychotherapy for adult and
-      adolescent populations struggling with mental health issues, as well as
-      provide psychological testing for adult and adolescent populations.
-    section: services
-    list:
-      - title: Diagnostic evaluations
-        desc: To diagnose and discover what underlying mental health issues a person is
-          experiencing and struggling with that interferes with their daily
-          functioning in a variety of domains.  These include but are not
-          limited to occupational, school, as well as interpersonal
-          relationships.
-        icon: fas fa-lightbulb
-      - title: Crisis Interventions
-        desc: To identify and aid individuals who are experiencing a crisis in their
-          life that negatively impacts overall functioning, and to help improve
-          their level of functioning by processing feelings and teaching
-          effective coping strategies that allow the individual to manage their
-          situation in a more effective manner.
-        icon: fas fa-cloud-showers-heavy
-      - title: Psychotherapy
-        desc: Talk therapy is when an individual or couple work with a professional
-          clinician in order to identify, discuss, and process mental health
-          issues that are negatively impacting a person’s daily life functioning
-          and/or relationships.  This process is facilitated in a safe space
-          where the client(s) can learn to develop effective coping skills that
-          will allow them to manage and reduce maladaptive thoughts, emotions,
-          and behaviors.
-        icon: fas fa-users
+
+  contact:
+    title: "Contact Us"
+    text: "For appointments and scheduling call (607) 280-8241.<br /> Our offices are conviently located at 416 N. Tioga St. Ithaca, NY 14850."
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    legal: "Privacy Policy"
+    credits: "Credits"
+    social:
+      - url: mailto:hello@lyonsBehavioralservices.com
+        icon: fas fa-envelope
+      - url: https://www.linkedin.com/in/montgomery-lyons-69b034199/
+        icon: "fab fa-linkedin-in"
+      - url: https://goo.gl/maps/wzcTwDqzwWAUU2CB8
+        icon: "fab fa-google"
+#      - url: https://twitter.com
+#        icon: "fab fa-twitter"
+#      - url: https://example.com
+#        icon: "fab fa-github"
+#      - url: https://instagram.com
+#        icon: "fab fa-instagram"
 en-US:
-  <<:
-    contact:
-      section: contact
-      message: Message*
-      email-validation: Please enter your email address.
-      name: Name*
-      subject: Contact Form Submission
-      text: For appointments and scheduling call (607) 280-8241.<br /> Our offices are
-        conviently located at 416 N. Tioga St. Ithaca, NY 14850.
-      phone: Phone Number
-      submit: Send Message
-      phone-validation: Please enter your phone number.
-      title: Contact Us
-      name-validation: Please enter your name.
-      email: Email*
-      message-validation: Please enter a message.
-    timeline:
-      title: Timeline
-      text: Lyons Behavioral Services
-      section: timeline
-      events:
-        - title: Lyons Behavioral Services
-          year: 2022––Current
-          desc: I administer individual and couple’s psychotherapy for adult and
-            adolescent populations struggling with mental health issues, as well
-            as provide psychological testing for adult and adolescent
-            populations.
-          image: /assets/img/timeline/lbs-logo.png
-          alt: Lyons logo
-        - title: CHE Behavioral Health Services
-          year: 4/2020––Current
-          desc: Working with the geriatric population has allowed me to gain a better
-            knowledge and understanding of how to assist individuals who are
-            dealing with issues where there is no cure, such as terminal illness
-            and end of life issues.
-          image: /assets/img/timeline/che.jpg
-          alt: CHE Behavioral Health Services Logo
-        - title: McLean Hospital
-          year: 9/2018––9/2019
-          desc: During this fellowship I learned a lot about how substance use and mental
-            illness are intertwined, and the most important lesson that I took
-            away from this experience is that there is no one “correct” approach
-            because each case is unique and as such the treatment plans that
-            created the best outcomes must be tailored to each unique
-            individual.
-          image: /assets/img/timeline/mclean-hospital.png
-          alt: McLean Hospital Logo
-        - title: Brockton Area Multi Services (BAMSI)
-          year: 8/2016––6/2018
-          desc: Working with individuals who have traumatic brain injuries and cognitive
-            disabilities have a tremendous impact on their mental health status,
-            and because of that factor group therapies and treatments for these
-            individuals must be adjusted and tailored in order to fit their
-            needs to achieve the best outcome.  I also learned how provide
-            neuropsychological assessments for this population navigating their
-            impairments due to traumatic brain injury and/or lower cognitive
-            functioning.
-          image: /assets/img/timeline/bamsi.png
-          alt: BAMSI logo
-        - title: Metrowest Medical Center (Partial Hospital Program)
-          year: 8/2015––5/2016
-          desc: This experience helped me grow as a clinician by teaching me how to
-            facilitate group therapy to not only individuals with mental
-            illness, but also to individuals who were suffering from substance
-            use issues combined with mental health issues.
-          image: /assets/img/timeline/metrowest.jpg
-          alt: Metrowest Medical Center logo
-        - title: Burncoat Family Center
-          year: 9/2014––6/2015
-          desc: Providing acute treatment for latency and adolescents helped me grow as a
-            clinician because I had to learn how to effectively provide support
-            and manage maladaptive symptoms in a very short period of time.
-          image: /assets/img/timeline/burncoat-family-center.png
-          alt: Burncoat decorative image
-        - title: Conditt Psychological Services
-          year: 7-12/2013
-          desc: In this environment I was able to learn how to provide support for a
-            variety of populations, and also learned how to provide
-            neuropsychological evaluations in a real-world clinical setting.
-          image: /assets/img/timeline/conditt.png
-          alt: Conditt Logo
-        - title: G&G Holistic Addiction Treatment Center
-          year: 10/2009-5/2010
-          desc: As a recovery coach I was able to directly interact with all patients
-            experiencing substance use issues and experience every part of the
-            process.  I learned how effective treatment encompassed treating the
-            whole individual in all aspects of their life, not just the
-            substance use issue.
-          image: /assets/img/timeline/gg.png
-          alt: G&G deocrative image
-          align: right
-      end: Be Part <br> of Our <br> Story!
-    portfolio:
-      title: Psychotherapy Services
-      text: "Services provided are the following: Diagnostic evaluations, diagnose
-        mental health disorders, mental status evaluations, risk assessments, as
-        well as crisis interventions. My specialties include: substance use
-        disorders, depression, anxiety, bipolar disorder, post-traumatic stress
-        disorder, trauma, and interpersonal conflict. I also work with couples
-        experiencing interpersonal conflict."
-      section: portfolio
-      closebutton: Close Services
-    clients:
-      section: clients
-      max-height: 100px
-      horizontal-scrolling: ""
-      list:
-        - title: Syracuse University
-          url: https://syracuse.edu
-          logo: /assets/img/schools/syracuse-university.png
-        - title: William James College
-          url: https://www.williamjames.edu/
-          logo: /assets/img/schools/wjc.png
-    header:
-      title: Welcome to Lyons Behavioral Services!
-      text: It's Nice To Meet You
-      button: Learn More
-      buttonlink: "#services"
-    about:
-      title: About
-      text: Montgomery Lyons, PsyD.
-      body: I have been training in psychology for over 10 years, and have been a
-        licensed clinical psychologist in the state of New York for 2 years.  I
-        have worked with most demographics of individuals from early childhood
-        to geriatric populations, and have been trained in a variety of
-        therapeutic techniques.  The therapeutic approach that I most gravitate
-        toward is cognitive behavioral therapy; however, I also utilize the
-        humanistic as well as the psychodynamic approach when
-        necessary.  Furthermore, being Native American and growing up on the
-        Onondaga Nation has given me a cultural awareness and sensitivity that
-        is necessary in this field.  It is my belief that the client's needs
-        must always come first and foremost, which has been my guiding force in
-        providing psychotherapy and other psychological services.  My goal is to
-        empower individuals and provide the necessary skills that enable
-        individuals to manage, reduce, and cope with maladaptive symptoms in a
-        way that will allow a person to lead their best life.
-      section: about
-    footer:
-      legal: Privacy Policy
-      credits: Credits
-      social:
-        - url: mailto:hello@lyonsBehavioralservices.com
-          icon: fas fa-envelope
-        - url: https://www.linkedin.com/in/montgomery-lyons-69b034199/
-          icon: fab fa-linkedin-in
-        - url: https://goo.gl/maps/wzcTwDqzwWAUU2CB8
-          icon: fab fa-google
-    team:
-      title: ABOUT ME
-      text: Montgomery Lyons is a licensed clinical pyschologist.
-      subtext: I am a licensed Clinical Psychologist. I received a B.A in Psychology
-        from Syracuse University, a Master of Clnical Psychology, and a Doctor
-        of Psychology (Psy.D.) from William James College.
-      section: team
-      people:
-        - name: Montgomery Lyons
-          role: Clinical Psychologist
-          image: /assets/img/team/lyons-linkedin.jpg
-          social:
-            - url: mailto:hello@lyonsBehavioralservices.com
-              icon: fas fa-envelope
-            - url: https://linkedin.com/https://www.linkedin.com/in/montgomery-lyons-69b034199/
-              icon: fab fa-linkedin-in
-    services:
-      title: Specialties
-      text: I administer individual and couple’s psychotherapy for adult and
-        adolescent populations struggling with mental health issues, as well as
-        provide psychological testing for adult and adolescent populations.
-      section: services
-      list:
-        - title: Diagnostic evaluations
-          desc: To diagnose and discover what underlying mental health issues a person is
-            experiencing and struggling with that interferes with their daily
-            functioning in a variety of domains.  These include but are not
-            limited to occupational, school, as well as interpersonal
-            relationships.
-          icon: fas fa-lightbulb
-        - title: Crisis Interventions
-          desc: To identify and aid individuals who are experiencing a crisis in their
-            life that negatively impacts overall functioning, and to help
-            improve their level of functioning by processing feelings and
-            teaching effective coping strategies that allow the individual to
-            manage their situation in a more effective manner.
-          icon: fas fa-cloud-showers-heavy
-        - title: Psychotherapy
-          desc: Talk therapy is when an individual or couple work with a professional
-            clinician in order to identify, discuss, and process mental health
-            issues that are negatively impacting a person’s daily life
-            functioning and/or relationships.  This process is facilitated in a
-            safe space where the client(s) can learn to develop effective coping
-            skills that will allow them to manage and reduce maladaptive
-            thoughts, emotions, and behaviors.
-          icon: fas fa-users
+  <<: *DEFAULT_EN
