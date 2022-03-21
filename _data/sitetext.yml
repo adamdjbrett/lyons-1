@@ -115,7 +115,7 @@ en: &DEFAULT_EN
     people:
       - name: "Montgomery Lyons"
         role: "Clinical Psychologist"
-        image: /assets/img/team/lyons-linkedin.jpg
+        image: /assets/img/team/montgomery-lyons-02-sq.jpg
         social:
           - url: mailto:hello@lyonsBehavioralservices.com
             icon: fas fa-envelope
