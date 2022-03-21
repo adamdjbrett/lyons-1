@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to Lyons Behaviorial Services!
+    title: Welcome to Lyons Behavioral Services!
     text: It's Nice To Meet You
     button: Learn More
     buttonlink: "#services"
@@ -52,7 +52,7 @@ en: &DEFAULT_EN
       - title: "CHE Behavioral Health Services"
         year: "4/2020––Current"
         desc: "Working with the geriatric population has allowed me to gain a better knowledge and understanding of how to assist individuals who are dealing with issues where there is no cure, such as terminal illness and end of life issues."
-        image: /assets/img/timeline/che-behaviorial-health-services.jpg
+        image: /assets/img/timeline/che.jpg
         alt: "CHE Behavioral Health Services Logo"
       - title: "McLean Hospital"
         year: "9/2018––9/2019"
@@ -138,7 +138,7 @@ en: &DEFAULT_EN
         role: "Clinical Psychologist"
         image: /assets/img/team/lyons-linkedin.jpg
         social:
-          - url: mailto:hello@lyonsbehaviorialservices.com
+          - url: mailto:hello@lyonsBehavioralservices.com
             icon: fas fa-envelope
           - url: https://linkedin.com/https://www.linkedin.com/in/montgomery-lyons-69b034199/
             icon: fab fa-linkedin-in
@@ -184,7 +184,7 @@ en: &DEFAULT_EN
     legal: "Privacy Policy"
     credits: "Credits"
     social:
-      - url: mailto:hello@lyonsbehaviorialservices.com
+      - url: mailto:hello@lyonsBehavioralservices.com
         icon: fas fa-envelope
       - url: https://www.linkedin.com/in/montgomery-lyons-69b034199/
         icon: "fab fa-linkedin-in"
