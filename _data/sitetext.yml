@@ -93,7 +93,15 @@ en: &DEFAULT_EN
     text: "Montgomery Lyons, PsyD."
     body: "I have been training in psychology for over 10 years, and have been a licensed clinical psychologist in the state of New York for 2 years.  I have worked with most demographics of individuals from early childhood to geriatric populations, and have been trained in a variety of therapeutic techniques.  The therapeutic approach that I most gravitate toward is cognitive behavioral therapy; however, I also utilize the humanistic as well as the psychodynamic approach when necessary.  Furthermore, being Native American and growing up on the Onondaga Nation has given me a cultural awareness and sensitivity that is necessary in this field.  It is my belief that the client's needs must always come first and foremost, which has been my guiding force in providing psychotherapy and other psychological services.  My goal is to empower individuals and provide the necessary skills that enable individuals to manage, reduce, and cope with maladaptive symptoms in a way that will allow a person to lead their best life."
     section: about
-
+    images:
+      - image: /assets/img/about/image1.jpg
+        alt: "about"
+      - image: /assets/img/about/image2.jpg
+        alt: "about"
+      - image: /assets/img/about/image3.jpg
+        alt: "about"
+      - image: /assets/img/about/image4.jpg
+        alt: "about"
 
   clients:
     section: clients
