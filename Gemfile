@@ -1,5 +1,6 @@
 #after any changes to the Gemfile, execute bundle update!
 source "https://rubygems.org"
+gem "webrick"
 
 gem "jekyll-remote-theme"
 
