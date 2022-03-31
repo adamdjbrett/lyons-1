@@ -4,6 +4,7 @@
 
 ### Jekyll ###
 Gemfile.lock
+package-lock.json
 _site/
 vendor/
 .sass-cache/
@@ -16,3 +17,7 @@ vendor/
 *.rb
 
 # End of https://www.toptal.com/developers/gitignore/api/jekyll
+
+# Local Netlify folder
+.netlify
+node_modules/
