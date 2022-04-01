@@ -14,7 +14,7 @@
     </div>
     <div class="row">
     	{% for about_image in site.data.sitetext[site.locale].about.images %}
-	    	<div class="col-lg-6 col-sm-12">
+	    	<div class="col-lg-6 col-sm-12 p-3">
 	    		<img src="{{ about_image.image | relative_url}}" alt="{{ about_image.alt }}" class="img-fluid">
 	    	</div>
     	{% endfor %}
