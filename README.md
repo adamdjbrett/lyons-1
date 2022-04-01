@@ -1,3 +1,6 @@
+# [Lyons Behavioral Service](https://www.lyonsbehavioralservices.com/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/16d7c57f-2916-4e1e-b9b7-54be28cc7451/deploy-status)](https://app.netlify.com/sites/lyons-1/deploys)
+
 # [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
 [![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
