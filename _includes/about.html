@@ -13,19 +13,12 @@
       </div>
     </div>
     <div class="row">
-    	<div class="col-lg-6 col-sm-12">
-    		<img src="{{ "/assets/img/about/image01.jpg" | relative_url}}" alt="about" class="img-fluid">
-    	</div>
-    	<div class="col-lg-6 col-sm-12">
-    		<img src="{{ "/assets/img/about/image02.jpg" | relative_url}}" alt="about" class="img-fluid">
-    	</div>
-    	<div class="col-lg-6 col-sm-12">
-    		<img src="{{ "/assets/img/about/image03.jpg" | relative_url}}" alt="about" class="img-fluid">
-    	</div>
-    	<div class="col-lg-6 col-sm-12">
-    		<img src="{{ "/assets/img/about/image04.jpg" | relative_url}}" alt="about" class="img-fluid">
+    	{% for about_image in site.data.sitetext[site.locale].about.images %}
+	    	<div class="col-lg-6 col-sm-12">
+	    		<img src="{{ about_image.image | relative_url}}" alt="{{ about_image.alt }}" class="img-fluid">
+	    	</div>
+    	{% endfor %}
     	</div>
     </div>
-  </div>
 </section>
 <!-- End About -->
