@@ -1,6 +1,6 @@
 backend:
   #name: github
-  repo: adamdjbrett/lyons-1
+  repo: vidhyav656/lyons-1
   name: git-gateway
   branch: master #
 
@@ -10,12 +10,26 @@ media_folder: "/assets/img/"
 public_folder: "/assets/img/"
 publish_mode: editorial_workflow
 collections:
+
 - label: "Parts"
   name: "parts"
   files:
 
+  - name: "faq"
+    label: "FAQ"
+    file: "_data/faq.yml"
+    fields:
+    - { label: "title", name: "b_title", widget: "string" }
+    - { label: "intro", name: "intro", widget: "string" }
+    - label: "items"
+      name: "items"
+      widget: "list"
+      fields:
+      - { label: "question", name: "question", widget: "string" }
+      - { label: "answer",  name: "answer",  widget: "string" }
+
   - name: "navigation"
-    label: "navigation menu"
+    label: "Navigation Menu"
     file: "_data/navigation.yml"
     fields:
     - label: "en"
@@ -40,7 +54,7 @@ collections:
         - { label: "section",  name: "section",  widget: "string" }
 
   - name: "sitetext"
-    label: "site text"
+    label: "Site Data"
     file: "_data/sitetext.yml"
     fields:
 
@@ -123,6 +137,10 @@ collections:
             widget: string
             required: false
             default: timeline
+          - name: align
+            widget: string
+            required: false
+            default: left
         - name: end
           widget: string
 
@@ -137,6 +155,14 @@ collections:
           widget: text
         - name: section
           widget: string
+        - name: images
+          widget: list
+          fields:
+          - name: image
+            widget: image
+          - name: alt
+            widget: string
+
 
       - name: clients
         widget: object
@@ -157,7 +183,7 @@ collections:
           - name: url
             widget: string
           - name: logo
-            widget: string
+            widget: image
 
       - name: team
         widget: object
@@ -178,7 +204,7 @@ collections:
           - name: role
             widget: string
           - name: image
-            widget: string
+            widget: image
           - name: social
             widget: list
             fields:
@@ -231,7 +257,7 @@ collections:
             widget: string
 
   - name: "style"
-    label: "style"
+    label: "Style"
     file: "_data/style.yml"
     fields:
   #Color Customization
@@ -253,7 +279,7 @@ collections:
       widget: 'image'
 
 - name: "portfolio_collection"
-  label: "portfolio_collection"
+  label: "Portfolio Collection"
   folder: "/_portfolio"
   create: true
   fields:
