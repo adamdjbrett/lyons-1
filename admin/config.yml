@@ -21,16 +21,12 @@ collections:
     fields:
     - { label: "title", name: "b_title", widget: "string" }
     - { label: "intro", name: "intro", widget: "string" }
-    - label: "en"
-      name: "en"
-      widget: "object"
+    - label: "faq"
+      name: "faq"
+      widget: "list"
       fields:
-      - label: "faq"
-        name: "faq"
-        widget: "list"
-        fields:
-        - { label: "question", name: "question", widget: "string" }
-        - { label: "answer",  name: "answer",  widget: "string" }
+      - { label: "question", name: "question", widget: "string" }
+      - { label: "answer",  name: "answer",  widget: "string" }
 
   - name: "navigation"
     label: "Navigation Menu"
