@@ -32,6 +32,8 @@ items:
       patient discloses that there is any child or elder abuse occurring.  The
       final exception is if a judge court orders the clinician to provide
       information.
+  - question: sdsf
+    answer: fssdsdfdf
 faq:
   - question: sdsdf?
     answer: dsf
