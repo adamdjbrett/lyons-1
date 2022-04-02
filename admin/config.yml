@@ -29,8 +29,8 @@ collections:
         name: "faq"
         widget: "list"
         fields:
-        - { label: "title", name: "title", widget: "string" }
-        - { label: "section",  name: "section",  widget: "string" }
+        - { label: "question", name: "question", widget: "string" }
+        - { label: "answer",  name: "answer",  widget: "string" }
 
   - name: "navigation"
     label: "Navigation Menu"
