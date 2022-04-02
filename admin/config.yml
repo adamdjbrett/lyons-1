@@ -22,7 +22,7 @@ collections:
     - { label: "title", name: "b_title", widget: "string" }
     - { label: "intro", name: "intro", widget: "string" }
     - label: "items"
-      name: "faq"
+      name: "items"
       widget: "list"
       fields:
       - { label: "question", name: "question", widget: "string" }
