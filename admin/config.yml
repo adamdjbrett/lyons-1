@@ -21,7 +21,7 @@ collections:
     fields:
     - { label: "title", name: "b_title", widget: "string" }
     - { label: "intro", name: "intro", widget: "string" }
-    - label: "faq"
+    - label: "items"
       name: "faq"
       widget: "list"
       fields:
