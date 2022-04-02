@@ -137,6 +137,10 @@ collections:
             widget: string
             required: false
             default: timeline
+          - name: align
+            widget: string
+            required: false
+            default: left
         - name: end
           widget: string
 
@@ -154,8 +158,11 @@ collections:
         - name: images
           widget: list
           fields:
-          - name: title
+          - name: image
+            widget: image
+          - name: alt
             widget: string
+
 
       - name: clients
         widget: object
@@ -176,7 +183,7 @@ collections:
           - name: url
             widget: string
           - name: logo
-            widget: string
+            widget: image
 
       - name: team
         widget: object
@@ -197,7 +204,7 @@ collections:
           - name: role
             widget: string
           - name: image
-            widget: string
+            widget: image
           - name: social
             widget: list
             fields:
