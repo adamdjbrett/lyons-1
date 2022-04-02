@@ -1,11 +1,39 @@
 b_title: Frequently Asked Questions
-intro: "The most commonly asked questions people have about therapy."
+intro: The most commonly asked questions people have about therapy.
 items:
-  - question: "How long will therapy take?"
-    answer: "There is no one size fits all answer to that question.  The short answer is that it depends and each treatment plan is individualized.  This is based on factors such as the goals that one wants to achieve in therapy, the severity of the problem(s), the motivation of the person(s) in treatment, etc.  Some people may only require a few sessions while others may want and need a much longer duration of treatment depending on the issues that are being explored and treated."
-  - question: "What can I expect to achieve in therapy?"
-    answer: "Each case is different, but one can expect to gain a better understanding of the issues that necessitated professional intervention.  Person(s) served will learn how thoughts, behaviors, and emotions are interconnected as well as how to implement effective coping strategies to manage maladaptive symptoms."
-  - question: "What if I can’t afford your full fee?"
-    answer: "<strong>It must be stated that I do not accept any insurance at this time and I am 100% private pay.</strong> In the event that an individual cannot afford the fee of service, a sliding scale may be negotiated with the clinician in order to figure out a fee that works for both parties.  This is based on financial resources of the patient(s), as well as need for services by the patient(s)."
-  - question: "Does what we talk about in therapy remain confidential?"
-    answer: "One of the main aspects in the therapeutic process has to do with trust and confidentiality.  What one discusses in therapy is confidential and cannot be disclosed to others without a signed release by the patient allowing the clinician to do so.  However, there are a few exceptions to that rule.  One exception is if the patient discloses that he or she is planning to harm themselves or others.  Another exception is if the patient discloses that there is any child or elder abuse occurring.  The final exception is if a judge court orders the clinician to provide information."
+  - question: How long will therapy take?
+    answer: There is no one size fits all answer to that question.  The short answer
+      is that it depends and each treatment plan is individualized.  This is
+      based on factors such as the goals that one wants to achieve in therapy,
+      the severity of the problem(s), the motivation of the person(s) in
+      treatment, etc.  Some people may only require a few sessions while others
+      may want and need a much longer duration of treatment depending on the
+      issues that are being explored and treated.
+  - question: What can I expect to achieve in therapy?
+    answer: Each case is different, but one can expect to gain a better
+      understanding of the issues that necessitated professional
+      intervention.  Person(s) served will learn how thoughts, behaviors, and
+      emotions are interconnected as well as how to implement effective coping
+      strategies to manage maladaptive symptoms.
+  - question: What if I can’t afford your full fee?
+    answer: <strong>It must be stated that I do not accept any insurance at this
+      time and I am 100% private pay.</strong> In the event that an individual
+      cannot afford the fee of service, a sliding scale may be negotiated with
+      the clinician in order to figure out a fee that works for both
+      parties.  This is based on financial resources of the patient(s), as well
+      as need for services by the patient(s).
+  - question: Does what we talk about in therapy remain confidential?
+    answer: One of the main aspects in the therapeutic process has to do with trust
+      and confidentiality.  What one discusses in therapy is confidential and
+      cannot be disclosed to others without a signed release by the patient
+      allowing the clinician to do so.  However, there are a few exceptions to
+      that rule.  One exception is if the patient discloses that he or she is
+      planning to harm themselves or others.  Another exception is if the
+      patient discloses that there is any child or elder abuse occurring.  The
+      final exception is if a judge court orders the clinician to provide
+      information.
+  - question: sdsf
+    answer: fssdsdfdf
+faq:
+  - question: sdsdf?
+    answer: dsf
