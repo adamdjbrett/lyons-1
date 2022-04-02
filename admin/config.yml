@@ -1,6 +1,6 @@
 backend:
   #name: github
-  repo: adamdjbrett/lyons-1
+  repo: vidhyav656/lyons-1
   name: git-gateway
   branch: master #
 
@@ -10,12 +10,30 @@ media_folder: "/assets/img/"
 public_folder: "/assets/img/"
 publish_mode: editorial_workflow
 collections:
+
 - label: "Parts"
   name: "parts"
   files:
 
+  - name: "faq"
+    label: "FAQ"
+    file: "_data/faq.yml"
+    fields:
+    - { label: "title", name: "b_title", widget: "string" }
+    - { label: "intro", name: "intro", widget: "string" }
+    - label: "en"
+      name: "en"
+      widget: "object"
+      fields:
+      - label: "faq"
+        name: "faq"
+        widget: "list"
+        fields:
+        - { label: "title", name: "title", widget: "string" }
+        - { label: "section",  name: "section",  widget: "string" }
+
   - name: "navigation"
-    label: "navigation menu"
+    label: "Navigation Menu"
     file: "_data/navigation.yml"
     fields:
     - label: "en"
@@ -137,6 +155,11 @@ collections:
           widget: text
         - name: section
           widget: string
+        - name: images
+          widget: list
+          fields:
+          - name: title
+            widget: string
 
       - name: clients
         widget: object
@@ -253,7 +276,7 @@ collections:
       widget: 'image'
 
 - name: "portfolio_collection"
-  label: "portfolio_collection"
+  label: "Portfolio Collection"
   folder: "/_portfolio"
   create: true
   fields:
