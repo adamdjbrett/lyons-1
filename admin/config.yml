@@ -58,7 +58,7 @@ collections:
         - { label: "section",  name: "section",  widget: "string" }
 
   - name: "sitetext"
-    label: "site text"
+    label: "Site Data"
     file: "_data/sitetext.yml"
     fields:
 
@@ -254,7 +254,7 @@ collections:
             widget: string
 
   - name: "style"
-    label: "style"
+    label: "Style"
     file: "_data/style.yml"
     fields:
   #Color Customization
