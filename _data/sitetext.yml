@@ -11,25 +11,25 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
+    title: Welcome to Lyons Behavioral Services!
     text: It's Nice To Meet You
-    button: Tell Me More
+    button: Learn More
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Specialties"
+    text: "I administer individual and couple’s psychotherapy for adult and adolescent populations struggling with mental health issues, as well as provide psychological testing for adult and adolescent populations."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Diagnostic evaluations"
+        desc: "To diagnose and discover what underlying mental health issues a person is experiencing and struggling with that interferes with their daily functioning in a variety of domains.  These include but are not limited to occupational, school, as well as interpersonal relationships."
+        icon: fas fa-lightbulb #find more at https://fontawesome.com/icons
+      - title: "Crisis Interventions"
+        desc: "To identify and aid individuals who are experiencing a crisis in their life that negatively impacts overall functioning, and to help improve their level of functioning by processing feelings and teaching effective coping strategies that allow the individual to manage their situation in a more effective manner."
+        icon: fas fa-cloud-showers-heavy
+      - title: "Psychotherapy"
+        desc: "Talk therapy is when an individual or couple work with a professional clinician in order to identify, discuss, and process mental health issues that are negatively impacting a person’s daily life functioning and/or relationships.  This process is facilitated in a safe space where the client(s) can learn to develop effective coping skills that will allow them to manage and reduce maladaptive thoughts, emotions, and behaviors."
+        icon: fas fa-users
 
   portfolio:
     title: "Portfolio"
