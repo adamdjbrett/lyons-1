@@ -1,35 +1,16 @@
-en:
-  nav:
-    - title: Services
-      section: services
-    - title: Portfolio
-      section: portfolio
-    - title: About
-      section: about
-    - title: Faq
-      section: faq
-    - title: Timeline
-      section: timeline
-    - title: Team
-      section: team
-    - title: Contacts
-      section: contacts
-    - title: login
-      section: login
-en-US:
-  <<:
-    nav:
-      - title: Services
-        section: services
-      - title: Portfolio
-        section: portfolio
-      - title: About
-        section: about
-      - title: Faq
-        section: faq
-      - title: Timeline
-        section: timeline
-      - title: Team
-        section: team
-      - title: Contact
-        section: contact
+nav:
+  - title: Services
+    section: services
+  - title: Portfolio
+    section: portfolio
+  - title: About
+    section: about
+  - title: Faq
+    section: faq
+  - title: Timeline
+    section: timeline
+  - title: Team
+    section: team
+  - title: Contact
+    section: contact
+
