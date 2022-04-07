@@ -32,26 +32,12 @@ collections:
     label: "Navigation Menu"
     file: "_data/navigation.yml"
     fields:
-    - label: "en"
-      name: "en"
-      widget: "object"
+    - label: "nav"
+      name: "nav"
+      widget: "list"
       fields:
-      - label: "nav"
-        name: "nav"
-        widget: "list"
-        fields:
-        - { label: "title", name: "title", widget: "string" }
-        - { label: "section",  name: "section",  widget: "string" }
-    - label: "es"
-      name: "es"
-      widget: "object"
-      fields:
-      - label: "nav"
-        name: "nav"
-        widget: "list"
-        fields:
-        - { label: "title", name: "title", widget: "string" }
-        - { label: "section",  name: "section",  widget: "string" }
+      - { label: "title", name: "title", widget: "string" }
+      - { label: "section",  name: "section",  widget: "string" }
 
   - name: "sitetext"
     label: "Site Data"
