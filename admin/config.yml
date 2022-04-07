@@ -274,5 +274,5 @@ collections:
       fields:
       - { label: 'title', name: 'title', widget: 'string'}
       - { label: 'subtitle', name: 'subtitle', widget: 'string' }
-      - { label: 'thumbnail', name: 'thumbnail', widget: 'string' }
+      - { label: 'thumbnail', name: 'thumbnail', widget: 'image' }
     - { label: 'Body', name: 'body', widget: 'markdown'}
