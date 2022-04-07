@@ -13,3 +13,5 @@ nav:
     section: team
   - title: Contact
     section: contact
+  - title: Batman
+    section: "#batman"
