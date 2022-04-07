@@ -1,8 +1,5 @@
-#Color Customization
 highlight: "#54bfff"
-white: "#eaeaea"  #eaeaea or #ff9454
+white: "#ffffff"
 black: "#000"
-
-#Image Customization
-header-image: "../img/ty-finck-Xe-WGYDTS7c-unsplash.jpg"
-contact-image: "../img/map-image.png"
+header-image: ../img/ty-finck-Xe-WGYDTS7c-unsplash.jpg
+contact-image: ../img/map-image.png
