@@ -43,197 +43,149 @@ collections:
     label: "Site Data"
     file: "_data/sitetext.yml"
     fields:
-
-    - label: "en"
-      name: 'en'
-      widget: 'object'
+    - label: header
+      name: header
+      widget: object
       fields:
-      - label: header
-        name: header
-        widget: object
-        fields:
-        - label: title
-          name: title
-          widget: string
-        - label: text
-          name: text
-          widget: text
-        - label: button
-          name: button
-          widget: string
-        - label: buttonlink
-          name: buttonlink
-          widget: string
+      - label: title
+        name: title
+        widget: string
+      - label: text
+        name: text
+        widget: text
+      - label: button
+        name: button
+        widget: string
+      - label: buttonlink
+        name: buttonlink
+        widget: string
 
-      - name: services
-        widget: object
-        fields:
-        - name: title
-          widget: string
-        - name: text
-          widget: text
-        - name: section
-          widget: string
-          default: services
-        - name: list
-          widget: list
-          fields:
-          - name: title
-            widget: string
-          - name: desc
-            widget: text
-          - name: icon
-            widget: string
-
-      - name: portfolio
-        widget: object
+    - name: services
+      widget: object
+      fields:
+      - name: title
+        widget: string
+      - name: text
+        widget: text
+      - name: section
+        widget: string
+        default: services
+      - name: list
+        widget: list
         fields:
         - name: title
           widget: string
-        - name: text
+        - name: desc
           widget: text
-        - name: section
-          widget: string
-          default: portfolio
-        - name: closebutton
+        - name: icon
           widget: string
 
-      - name: timeline
-        widget: object
+    - name: portfolio
+      widget: object
+      fields:
+      - name: title
+        widget: string
+      - name: text
+        widget: text
+      - name: section
+        widget: string
+        default: portfolio
+      - name: closebutton
+        widget: string
+
+    - name: timeline
+      widget: object
+      fields:
+      - name: title
+        widget: string
+      - name: text
+        widget: text
+      - name: section
+        widget: string
+        default: timeline
+      - name: events
+        widget: list
         fields:
         - name: title
           widget: string
-        - name: text
+        - name: year
+          widget: string
+        - name: desc
           widget: text
-        - name: section
+        - name: image
+          widget: image
+        - name: alt
           widget: string
-          default: timeline
-        - name: events
-          widget: list
-          fields:
-          - name: title
-            widget: string
-          - name: year
-            widget: string
-          - name: desc
-            widget: text
-          - name: image
-            widget: string
-          - name: alt
-            widget: string
-            required: false
-            default: timeline
-          - name: align
-            widget: string
-            required: false
-            default: left
-        - name: end
-          widget: string
-
-      - name: about
-        widget: object
-        fields:
-        - name: title
-          widget: string
-        - name: text
-          widget: string
-        - name: body
-          widget: text
-        - name: section
-          widget: string
-        - name: images
-          widget: list
-          fields:
-          - name: image
-            widget: image
-          - name: alt
-            widget: string
-
-
-      - name: clients
-        widget: object
-        fields:
-        - name: section
-          widget: string
-        - name: max-height
-          widget: string
-        - name: horizontal-scrolling
-          widget: select
-          options: [yes, no]
           required: false
-        - name: list
-          widget: list
-          fields:
-          - name: title
-            widget: string
-          - name: url
-            widget: string
-          - name: logo
-            widget: image
+          default: timeline
+        - name: align
+          widget: string
+          required: false
+          default: left
+      - name: end
+        widget: string
 
-      - name: team
-        widget: object
+    - name: about
+      widget: object
+      fields:
+      - name: title
+        widget: string
+      - name: text
+        widget: string
+      - name: body
+        widget: text
+      - name: section
+        widget: string
+      - name: images
+        widget: list
+        fields:
+        - name: image
+          widget: image
+        - name: alt
+          widget: string
+
+
+    - name: clients
+      widget: object
+      fields:
+      - name: section
+        widget: string
+      - name: max-height
+        widget: string
+      - name: horizontal-scrolling
+        widget: select
+        options: [yes, no]
+        required: false
+      - name: list
+        widget: list
         fields:
         - name: title
           widget: string
-        - name: text
+        - name: url
           widget: string
-        - name: subtext
-          widget: text
-        - name: section
-          widget: string
-        - name: people
-          widget: list
-          fields:
-          - name: name
-            widget: string
-          - name: role
-            widget: string
-          - name: image
-            widget: image
-          - name: social
-            widget: list
-            fields:
-            - name: url
-              widget: string
-            - name: icon
-              widget: string
+        - name: logo
+          widget: image
 
-      - name: contact
-        widget: object
+    - name: team
+      widget: object
+      fields:
+      - name: title
+        widget: string
+      - name: text
+        widget: string
+      - name: subtext
+        widget: text
+      - name: section
+        widget: string
+      - name: people
+        widget: list
         fields:
-        - name: title
-          widget: string
-        - name: text
-          widget: string
-        - name: section
-          widget: string
         - name: name
           widget: string
-        - name: name-validation
+        - name: role
           widget: string
-        - name: email
-          widget: string
-        - name: email-validation
-          widget: string
-        - name: phone
-          widget: string
-        - name: phone-validation
-          widget: string
-        - name: message
-          widget: string
-        - name: message-validation
-          widget: string
-        - name: subject
-          widget: string
-        - name: submit
-          widget: string
-
-      - name: footer
-        widget: object
-        fields:
-        - name: legal
-          widget: string
+        - name: image
+          widget: image
         - name: social
           widget: list
           fields:
@@ -241,6 +193,49 @@ collections:
             widget: string
           - name: icon
             widget: string
+
+    - name: contact
+      widget: object
+      fields:
+      - name: title
+        widget: string
+      - name: text
+        widget: string
+      - name: section
+        widget: string
+      - name: name
+        widget: string
+      - name: name-validation
+        widget: string
+      - name: email
+        widget: string
+      - name: email-validation
+        widget: string
+      - name: phone
+        widget: string
+      - name: phone-validation
+        widget: string
+      - name: message
+        widget: string
+      - name: message-validation
+        widget: string
+      - name: subject
+        widget: string
+      - name: submit
+        widget: string
+
+    - name: footer
+      widget: object
+      fields:
+      - name: legal
+        widget: string
+      - name: social
+        widget: list
+        fields:
+        - name: url
+          widget: string
+        - name: icon
+          widget: string
 
   - name: "style"
     label: "Style"
@@ -271,7 +266,7 @@ collections:
   fields:
     - { label: 'Title', name: 'title', widget: 'string' }
     - { label: 'subtitle', name: 'subtitle', widget: 'string', required: false }
-    - { label: "image", name: "image", widget: "string"}
+    - { label: "image", name: "image", widget: "image"}
     - { label: 'alt', name: 'alt', widget: 'string', required: false}
     - label: caption
       name: caption
