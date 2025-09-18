@@ -1,4 +1,4 @@
-# [Lyons Behavioral Service](https://www.lyonsbehavioralservices.com/)
+# [Lyons Behavioral Service](https://www.lyonspsychologicalservices.com/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/16d7c57f-2916-4e1e-b9b7-54be28cc7451/deploy-status)](https://app.netlify.com/sites/lyons-1/deploys)
 
 # [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template

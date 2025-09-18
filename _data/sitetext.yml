@@ -1,5 +1,5 @@
 header:
-  title: Welcome to Lyons Behavioral Services!
+  title: Welcome to Lyons Psychological Services!
   text: It's Nice To Meet You.
   button: Learn More
   buttonlink: "#services"
@@ -44,10 +44,10 @@ portfolio:
   closebutton: Close Services
 timeline:
   title: Timeline
-  text: Lyons Behavioral Services
+  text: Lyons Psychological Services
   section: timeline
   events:
-    - title: Lyons Behavioral Services
+    - title: Lyons Psychological Services
       year: 2022––Current
       desc: I administer individual and couple’s psychotherapy for adult and
         adolescent populations struggling with mental health issues, as well as

@@ -14,11 +14,11 @@
 theme: jekyll-agency
 #remote_theme: raviriley/agency-jekyll-theme
 
-url    : "https://www.lyonsbehavioralservices.com" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://www.lyonspsychologicalservices.com" # the base hostname & protocol for your site, e.g. http://example.com
 #baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
 
-title      : Lyons Behavioral Services
-email      : hello@lyonsbehavioralservices.com #this is also the email contact forms will go to
+title      : Lyons Psychological Services
+email      : hello@lyonspsychologicalservices.com #this is also the email contact forms will go to
 description: "Psychological services for adult and adolescents."
 author     : "Dr. Montgomery Lyons"
 # logo:     #optional, defaults to site title

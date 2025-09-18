@@ -16,10 +16,10 @@ en:
     message-validation: Please enter a message.
   timeline:
     title: Timeline
-    text: Lyons Behavioral Services
+    text: Lyons Psychological Services
     section: timeline
     events:
-      - title: Lyons Behavioral Services
+      - title: Lyons Psychological Services
         year: 2022––Current
         desc: I administer individual and couple’s psychotherapy for adult and
           adolescent populations struggling with mental health issues, as well
@@ -110,7 +110,7 @@ en:
         url: https://www.williamjames.edu/
         logo: /assets/img/schools/wjc.png
   header:
-    title: Welcome to Lyons Behavioral Services!
+    title: Welcome to Lyons Psychological Services!
     text: It's Nice To Meet You
     button: Learn More
     buttonlink: "#services"
@@ -208,10 +208,10 @@ en-US:
       message-validation: Please enter a message.
     timeline:
       title: Timeline
-      text: Lyons Behavioral Services
+      text: Lyons Psychological Services
       section: timeline
       events:
-        - title: Lyons Behavioral Services
+        - title: Lyons Psychological Services
           year: 2022––Current
           desc: I administer individual and couple’s psychotherapy for adult and
             adolescent populations struggling with mental health issues, as well
@@ -304,7 +304,7 @@ en-US:
           url: https://www.williamjames.edu/
           logo: /assets/img/schools/wjc.png
     header:
-      title: Welcome to Lyons Behavioral Services!
+      title: Welcome to Lyons Psychological Services!
       text: It's Nice To Meet You
       button: Learn More
       buttonlink: "#services"
@@ -402,10 +402,10 @@ en-CA:
       message-validation: Please enter a message.
     timeline:
       title: Timeline
-      text: Lyons Behavioral Services
+      text: Lyons Psychological Services
       section: timeline
       events:
-        - title: Lyons Behavioral Services
+        - title: Lyons Psychological Services
           year: 2022––Current
           desc: I administer individual and couple’s psychotherapy for adult and
             adolescent populations struggling with mental health issues, as well
@@ -498,7 +498,7 @@ en-CA:
           url: https://www.williamjames.edu/
           logo: /assets/img/schools/wjc.png
     header:
-      title: Welcome to Lyons Behavioral Services!
+      title: Welcome to Lyons Psychological Services!
       text: It's Nice To Meet You
       button: Learn More
       buttonlink: "#services"
@@ -596,10 +596,10 @@ en-GB:
       message-validation: Please enter a message.
     timeline:
       title: Timeline
-      text: Lyons Behavioral Services
+      text: Lyons Psychological Services
       section: timeline
       events:
-        - title: Lyons Behavioral Services
+        - title: Lyons Psychological Services
           year: 2022––Current
           desc: I administer individual and couple’s psychotherapy for adult and
             adolescent populations struggling with mental health issues, as well
@@ -692,7 +692,7 @@ en-GB:
           url: https://www.williamjames.edu/
           logo: /assets/img/schools/wjc.png
     header:
-      title: Welcome to Lyons Behavioral Services!
+      title: Welcome to Lyons Psychological Services!
       text: It's Nice To Meet You
       button: Learn More
       buttonlink: "#services"
@@ -790,10 +790,10 @@ en-AU:
       message-validation: Please enter a message.
     timeline:
       title: Timeline
-      text: Lyons Behavioral Services
+      text: Lyons Psychological Services
       section: timeline
       events:
-        - title: Lyons Behavioral Services
+        - title: Lyons Psychological Services
           year: 2022––Current
           desc: I administer individual and couple’s psychotherapy for adult and
             adolescent populations struggling with mental health issues, as well
@@ -886,7 +886,7 @@ en-AU:
           url: https://www.williamjames.edu/
           logo: /assets/img/schools/wjc.png
     header:
-      title: Welcome to Lyons Behavioral Services!
+      title: Welcome to Lyons Psychological Services!
       text: It's Nice To Meet You
       button: Learn More
       buttonlink: "#services"
