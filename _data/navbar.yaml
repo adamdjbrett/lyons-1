@@ -1,0 +1,17 @@
+title: Lyons Psychological Services
+logo: 
+item:
+ - nav: services
+   url: "#services"
+ - nav: portfolio
+   url: "#portfoilo"
+ - nav: about
+   url: "#about"
+ - nav: faq
+   url: "#faq"
+ - nav: timeline
+   url: "#timeline"
+ - nav: team
+   url: "#team"
+ - nav: contact
+   url: "#contact"

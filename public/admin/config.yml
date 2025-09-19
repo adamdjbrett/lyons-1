@@ -1,0 +1,305 @@
+# local_backend: true
+backend:
+  name: git-gateway
+  repo: adamdjbrett/lyons-1
+  branch: main
+media_folder: 'public'
+collections:
+- name: "metadata"
+  label: "Metadata"
+  extension: "yaml"
+  editor:
+    preview: false
+  files:
+  - file: "_data/metadata.yaml"
+    label: "Metadata"
+    name: "metadata"
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "Lyons Psychological Services"}
+      - {label: "Description", name: "description", widget: "string", default: "Psychological services for adult and adolescents."}
+      - {label: "URL", name: "url", widget: "string", default: "https://www.lyonspsychologicalservices.com"}
+      - {label: "Language", name: "language", widget: "string", default: "en"}
+      - {label: "Locale", name: "locale", widget: "string", default: "en_US"}
+      - {label: "Image", name: "image", widget: "image", default: "/apple-touch-icon.png"}
+      - {label: "Favicon", name: "favicon", widget: "image", default: "/apple-touch-icon.png"}
+      - name: "metasocial"
+        label: "Metasocial"
+        widget: "object"
+        fields:
+          - {label: "Facebook", name: "facebook", widget: "string", default: "https://facebook.com/user"}
+          - {label: "Twitter", name: "twitter", widget: "string", default: "https://twitter.com/user"}
+          - {label: "Tweet", name: "tweet", widget: "string", default: "@user"}
+      - {label: "Google Analytics", name: "google_analytics", widget: "string", required: false}
+      - name: "author"
+        label: "Author"
+        widget: "object"
+        fields:
+          - {label: "Name", name: "name", widget: "string", default: "Dr. Montgomery Lyons"}
+          - {label: "Email", name: "email", widget: "string", default: "hello@lyonspsychologicalservices.com"}
+          - {label: "URL", name: "url", widget: "string", default: "https://www.lyonspsychologicalservices.com"}
+- name: "navbar"
+  label: "Navbar"
+  extension: "yaml"
+  editor:
+    preview: false
+  files:
+  - file: "_data/navbar.yaml"
+    label: "Navbar"
+    name: "navbar"
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "Lyons Psychological Services"}
+      - {label: "Logo", name: "logo", widget: "image", required: false}
+      - name: "item"
+        label: "Navigation Items"
+        widget: "list"
+        fields:
+          - {label: "Navigation Text", name: "nav", widget: "string"}
+          - {label: "URL", name: "url", widget: "string"}
+- name: "header"
+  label: "Header"
+  extension: "yaml"
+  editor:
+    preview: false
+  files:
+  - file: "_data/header.yaml"
+    label: "Header"
+    name: "header"
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "Welcome to Lyons Psychological Services!"}
+      - {label: "Text", name: "text", widget: "string", default: "It's Nice To Meet You."}
+      - {label: "Button Text", name: "button", widget: "string", default: "Learn More"}
+      - {label: "Button Link", name: "buttonlink", widget: "string", default: "#services"}
+- name: "services"
+  label: "Services"
+  extension: "yaml"
+  editor:
+    preview: false
+  files:
+  - file: "_data/services.yaml"
+    label: "Services"
+    name: "services"
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "Specialties"}
+      - {label: "Text", name: "text", widget: "text", default: "I administer individual and couple’s psychotherapy for adult and adolescent populations struggling with mental health issues, as well as provide psychological testing for adult and adolescent populations."}
+      - {label: "Section", name: "section", widget: "hidden", default: "services"}
+      - name: "list"
+        label: "Service List"
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "desc", widget: "text"}
+          - {label: "Icon", name: "icon", widget: "string", default: "fas fa-lightbulb"}
+- name: "portfolio"
+  label: "Portfolio Header"
+  extension: "yaml"
+  editor:
+    preview: false
+  files:
+  - file: "_data/portfolio.yaml"
+    label: "Portfolio"
+    name: "portfolio"
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "Psychotherapy Services"}
+      - {label: "Text", name: "text", widget: "text", default: "Services provided are the following: Diagnostic evaluations, diagnose mental health disorders, mental status evaluations, risk assessments, as well as crisis interventions. My specialties include: substance use disorders, depression, anxiety, bipolar disorder, post-traumatic stress disorder, trauma, and interpersonal conflict. I also work with couples experiencing interpersonal conflict."}
+      - {label: "Section", name: "section", widget: "hidden", default: "portfolio"}
+      - {label: "Close Button Text", name: "closebutton", widget: "string", default: "Close Services"}
+- name: 'portfolios'
+  label: 'Portfolio Article'
+  folder: 'content/portfolio'
+  slug: '{{slug}}'
+  create: true
+  editor:
+    preview: false
+  fields:
+     - { label: 'Title', name: 'title', widget: 'string' }
+     - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
+     - { label: 'Image', name: 'image', widget: 'image' }
+     - { label: 'ALT Image', name: 'alt', widget: 'string' }
+     - name: 'caption'
+       label: 'Caption' 
+       widget: 'object'
+       fields:
+         - { name: 'title', label: 'Title', widget: 'string' }
+         - { name: 'subtitle', label: 'Sub Title', widget: 'string' }
+         - { name: 'thumbnail', label: 'Thumbnail', widget: 'image' }
+     - { label: 'Body', name: 'body', widget: 'markdown' }
+- name: "about"
+  label: "About"
+  extension: "yaml"
+  editor:
+    preview: false
+  files:
+  - file: "_data/about.yaml"
+    label: "About"
+    name: "about"
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "About"}
+      - {label: "Text", name: "text", widget: "string", default: "Montgomery Lyons, PsyD."}
+      - {label: "Body", name: "body", widget: "markdown", default: "I have been training in psychology for over 10 years, and have been a licensed clinical psychologist in the state of New York for 2 years.  I have worked with most demographics of individuals from early childhood to geriatric populations, and have been trained in a variety of therapeutic techniques.  The therapeutic approach that I most gravitate toward is cognitive behavioral therapy; however, I also utilize the humanistic as well as the psychodynamic approach when necessary.  Furthermore, being Native American and growing up on the Onondaga Nation has given me a cultural awareness and sensitivity that is necessary in this field.  It is my belief that the client’s needs must always come first and foremost, which has been my guiding force in providing psychotherapy and other psychological services. My goal is to empower individuals and provide the necessary skills that enable individuals to manage, reduce, and cope with maladaptive symptoms in a way that will allow a person to lead their best life."}
+      - {label: "Section", name: "section", widget: "hidden", default: "about"}
+      - name: "images"
+        label: "Images"
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Alt Text", name: "alt", widget: "string"}
+- name: "faq"
+  label: "FAQ"
+  extension: "yaml"
+  editor:
+    preview: false
+  files:
+  - file: "_data/faq.yaml"
+    label: "FAQ"
+    name: "faq"
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "Frequently Asked Questions"}
+      - {label: "Section", name: "section", widget: "hidden", default: "faq"}
+      - {label: "Intro", name: "intro", widget: "string", default: "The most commonly asked questions people have about therapy."}
+      - name: "items"
+        label: "FAQ Items"
+        widget: "list"
+        fields:
+          - {label: "Question", name: "question", widget: "string"}
+          - {label: "Sort Order", name: "sort", widget: "number", valueType: "integer"}
+          - {label: "Answer", name: "answer", widget: "markdown"}
+- name: "timeline"
+  label: "Timeline"
+  extension: "yaml"
+  editor:
+    preview: false
+  files:
+  - file: "_data/timeline.yaml"
+    label: "Timeline"
+    name: "timeline"
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "Timeline"}
+      - {label: "Text", name: "text", widget: "string", default: "Lyons Psychological Services"}
+      - {label: "Section", name: "section", widget: "hidden", default: "timeline"}
+      - name: "events"
+        label: "Timeline Events"
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Year", name: "year", widget: "string"}
+          - {label: "Description", name: "desc", widget: "text"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Alt Text", name: "alt", widget: "string"}
+          - {label: "Align", name: "align", widget: "select", options: [left, right], required: false}
+      - {label: "End Text", name: "end", widget: "string", default: "Be Part <br> of Our <br> Story!"}
+- name: "team"
+  label: "Team"
+  extension: "yaml"
+  editor:
+    preview: false
+  files:
+  - file: "_data/team.yaml"
+    label: "Team"
+    name: "team"
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "ABOUT ME"}
+      - {label: "Text", name: "text", widget: "string", default: "Montgomery Lyons is a licensed clinical pyschologist."}
+      - {label: "Subtext", name: "subtext", widget: "text", default: "I am a licensed Clinical Psychologist. I received a B.A in Psychology from Syracuse University, a Master of Clnical Psychology, and a Doctor of Psychology (Psy.D.) from William James College."}
+      - {label: "Section", name: "section", widget: "hidden", default: "team"}
+      - name: "people"
+        label: "Team Members"
+        widget: "list"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Role", name: "role", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - name: "social"
+            label: "Social Links"
+            widget: "list"
+            fields:
+              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Icon", name: "icon", widget: "string"}
+- name: "clients"
+  label: "Clients"
+  extension: "yaml"
+  editor:
+    preview: false
+  files:
+  - file: "_data/clients.yaml"
+    label: "Clients"
+    name: "clients"
+    fields:
+      - {label: "Section", name: "section", widget: "hidden", default: "clients"}
+      - name: "list"
+        label: "Client List"
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "URL", name: "url", widget: "string"}
+          - {label: "Logo", name: "logo", widget: "image"}
+- name: "contact"
+  label: "Contact"
+  extension: "yaml"
+  editor:
+    preview: false
+  files:
+  - file: "_data/contact.yaml"
+    label: "Contact"
+    name: "contact"
+    fields:
+      - {label: "Section", name: "section", widget: "hidden", default: "contact"}
+      - {label: "Title", name: "title", widget: "string", default: "Contact Us"}
+      - {label: "Text", name: "text", widget: "text", default: "For appointments and scheduling call (607) 280-8241.<br /> Our offices are conviently located at 416 N. Tioga St. Ithaca, NY 14850."}
+      - {label: "Name Label", name: "name", widget: "string", default: "Name*"}
+      - {label: "Email Label", name: "email", widget: "string", default: "Email*"}
+      - {label: "Message Label", name: "message", widget: "string", default: "Message*"}
+      - {label: "Phone Label", name: "phone", widget: "string", default: "Phone Number"}
+      - {label: "Submit Button Text", name: "submit", widget: "string", default: "Send Message"}
+      - {label: "Formspree URL", name: "formspree", widget: "string", default: "https://formspree.io/f/xpzbdgvw"}
+      - {label: "Subject", name: "subject", widget: "string", default: "Contact Form Submission"}
+      - {label: "Name Validation Message", name: "name-validation", widget: "string", default: "Please enter your name."}
+      - {label: "Email Validation Message", name: "email-validation", widget: "string", default: "Please enter your email address."}
+      - {label: "Message Validation Message", name: "message-validation", widget: "string", default: "Please enter a message."}
+      - {label: "Phone Validation Message", name: "phone-validation", widget: "string", default: "Please enter your phone number."}
+      - name: "footer"
+        label: "Footer"
+        widget: "object"
+        fields:
+          - {label: "Legal Text", name: "legal", widget: "string", default: "Privacy Policy"}
+          - {label: "Credits Text", name: "credits", widget: "string", default: "Credits"}
+          - name: "social"
+            label: "Social Links"
+            widget: "list"
+            fields:
+              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Icon", name: "icon", widget: "string"}
+- name: "footer"
+  label: "Footer"
+  extension: "yaml"
+  editor:
+    preview: false
+  files:
+  - file: "_data/footer.yaml"
+    label: "Footer"
+    name: "footer"
+    fields:
+      - name: "legal"
+        label: "Legal"
+        widget: "object"
+        fields:
+          - {label: "Text", name: "text", widget: "string", default: "Privacy Policy"}
+          - {label: "URL", name: "url", widget: "string", default: "/legal/"}
+      - name: "credits"
+        label: "Credits"
+        widget: "object"
+        fields:
+          - {label: "Text", name: "text", widget: "string", default: "Credits"}
+          - {label: "URL", name: "url", widget: "string", default: "/credits/"}
+      - name: "maintain"
+        label: "Maintain"
+        widget: "object"
+        fields:
+          - {label: "Text", name: "text", widget: "string", default: "Maintained by"}
+          - {label: "Developer", name: "dev", widget: "string", default: "Adam DJ Brett"}
+          - {label: "URL", name: "url", widget: "string", default: "https://adamdjbrett.com/"}
+      - name: "social"
+        label: "Social Links"
+        widget: "list"
+        fields:
+          - {label: "URL", name: "url", widget: "string"}
+          - {label: "Icon", name: "icon", widget: "string"}

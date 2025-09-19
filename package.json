@@ -1,5 +1,45 @@
 {
-  "devDependencies": {
-    "netlify-cli": "^9.16.0"
-  }
+	"name": "lyon",
+	"version": "1.0.1",
+	"description": "Lyon official website by Adam Dj Brett build with Eleventy",
+	"type": "module",
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
+		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
+		"start": "npx @11ty/eleventy --serve --quiet",
+		"start-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/ --serve --quiet",
+		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
+		"debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+		"benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/adamdjbrett/lyons-1.git"
+	},
+	"author": {
+		"name": "Adam Dj Brett",
+		"email": "info@adamdjbrett.com",
+		"url": "https://adamdjbrett.com/"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=22"
+	},
+	"homepage": "https://www.lyonspsychologicalservices.com/",
+	"devDependencies": {
+		"@11ty/eleventy": "^3.1.2",
+		"@11ty/eleventy-img": "^6.0.4",
+		"@11ty/eleventy-navigation": "^1.0.4",
+		"@11ty/eleventy-plugin-rss": "^2.0.4",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
+		"cross-env": "^7.0.3",
+		"luxon": "^3.6.1",
+		"prismjs": "^1.30.0",
+		"zod": "^3.25.67",
+		"zod-validation-error": "^3.5.2"
+	},
+	"dependencies": {
+		"@zachleat/heading-anchors": "^1.0.3"
+	}
 }

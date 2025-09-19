@@ -1,0 +1,37 @@
+<footer class="footer p-3" id="footer" style="background-color: white">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-4 p-3 ">
+        <span class="copyright">
+          Copyright &copy; <span id="currentYear"></span>
+          {{ metadata.title }}.
+          <br />{{ footer.maintain.text}} <a href="{{ footer.maintain.url}}" target="_blank" 
+          rel="noopener">{{ footer.maintain.dev}}</a>
+         </span>
+      </div>
+      <div class="col-md-4 p-3 ">
+        <ul class="list-inline social-buttons">
+          {% for link in footer.social %}
+          <li class="list-inline-item">
+            {% if link.url %}
+            <a href="{{ link.url }}" class="btn btn-dark btn-sm p-3 rounded-circle">
+              {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+            </a>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-4 p-3 ">
+        <ul class="list-inline quicklinks">
+          <li class="list-inline-item">
+            <a href="{{ footer.credits.url}}">{{ footer.credits.text}}</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="{{ footer.legal.url}}">{{ footer.legal.text}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,44 +1,68 @@
 # [Lyons Behavioral Service](https://www.lyonspsychologicalservices.com/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/16d7c57f-2916-4e1e-b9b7-54be28cc7451/deploy-status)](https://app.netlify.com/sites/lyons-1/deploys)
 
-# [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
+Rebuild with eleventy V.3.1.2
 
-This is the fastest and easiest way to get up and running on GitHub Pages.
-Simply generate your own repository by clicking the [![template button](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate) button,
-then replace the sample content with your own and configure for your needs.
+Developer : [Adam Dj Brett](https://adamdjbrett.com)
 
-If you want your website to be at `YOUR-USERNAME.github.io`, that's what you must name your repo. If you want it to be like this: `https://raviriley.github.io/agency-jekyll-theme-starter/`, them make sure the `baseurl` in `_config.yml` matches the name of your repo.
+Need Help ?? Or Have project to work with me ??
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
+Contact Me
++ adamdjbrett.com
++ info@adamdjbrett.com
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
+### Change Log
 
-## Development
++ Migration to Eleventy V.3.1.2
++ YAML Data
++ Content/portfolio collections
++ Implement SEO injection script
++ Integration Headless Decap Backend CMS Per Section
++ Integration Headless Decap Backend CMS Per Portfolio Collections
 
-To set up your environment to develop this theme, clone this repo or your fork.
+### How to: 
 
-```sh
-$ git clone https://github.com/raviriley/agency-jekyll-theme.git
-$ cd agency-jekyll-theme
+Clone repo
+```
+git clone https://github.com/adamdjbrett/lyons-1.git
 ```
 
-Then run:
-
-```sh
-$ bundle install
+### Installation & run project
+make sure you have node js installation in your device,open terminal and run this command.
+```
+npm install && npm start
+# open localhost:8080
 ```
 
-To test the theme, run this. (Using the `--trace` flag for verbose errors.)
-
-```sh
-$ bundle exec jekyll serve --trace
+### Setup & SEO
+First you need to configure your site
+```
+_data/metadata.yaml
 ```
 
-Then open your browser at:
+### Update Section
 
-- http://localhost:4000
+You can update header , navbar , footer and other section in to
+```
+_data/*.yaml
+```
 
-Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
+### Update Portfolio
+to update portfolio access in to
+```
+content/portfolio/*.md
+```
+
+### Static Page
+to create new static page create a new markdown file
+```
+content/*.md
+```
+
+### Information and Project
+
+Need Help ?? Or Have project to work with me ??
+
+Contact Me
++ adamdjbrett.com
++ info@adamdjbrett.com
