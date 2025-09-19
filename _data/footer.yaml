@@ -4,6 +4,9 @@ legal:
 credits: 
  text: Credits
  url: /credits/
+sitemap: 
+ text: Sitemap
+ url: /sitemap.xml 
 maintain:
  text: Maintained by
  dev: Adam DJ Brett
