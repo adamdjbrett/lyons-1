@@ -1,0 +1,57 @@
+<section class="bg-light page-section" id="{{ timeline.section}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ timeline.title }}</h2>
+        <h3 class="section-subheading text-muted">{{ timeline.text }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          {% set align = timeline.start_align %}
+          {% for event in timeline.events %}
+            {% if align == "right" %}
+              {% if event.align and event.align == "left" %}
+                {% set align = "right" %}
+                <li>
+              {% else %}
+                {% set align = "left" %}
+                <li class="timeline-inverted">
+              {% endif %}
+            {% else %}
+              {% if event.align and event.align == "right" %}
+                {% set align = "left" %}
+                <li class="timeline-inverted">
+              {% else %}
+                {% set align = "right" %}
+                <li>
+              {% endif %}
+            {% endif %}
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default('') }}">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>{{ event.year|safe  }}</h4>
+                  <h4 class="subheading">{{ event.title |safe }}</h4>
+                </div>
+                <div class="timeline-body">
+                  <div class="text-muted">{{ event.desc |safe }}</div>
+                </div>
+              </div>
+            </li>
+          {% endfor %}
+
+          {% if timeline.end %}
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>{{ timeline.end |safe }}</h4>
+              </div>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

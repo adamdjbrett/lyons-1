@@ -1,0 +1,17 @@
+title: ABOUT ME
+text: Montgomery Lyons is a licensed clinical pyschologist.
+subtext: I am a licensed Clinical Psychologist. I received a B.A in Psychology
+    from Syracuse University, a Master of Clnical Psychology, and a Doctor of
+    Psychology (Psy.D.) from William James College.
+section: team
+people:
+    - name: Montgomery Lyons
+      role: Clinical Psychologist
+      image: /assets/img/montgomery-lyons-02-sq.jpg
+      social:
+        - url: mailto:hello@lyonsBehavioralservices.com
+          icon: fas fa-envelope
+        - url: https://linkedin.com/https://www.linkedin.com/in/montgomery-lyons-69b034199/
+          icon: fab fa-linkedin-in
+        - url: https://www.psychologytoday.com/us/therapists/montgomery-lyons-ithaca-ny/969384
+          icon: fas fa-brain

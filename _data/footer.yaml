@@ -1,0 +1,19 @@
+legal: 
+ text: Privacy Policy
+ url: /legal/
+credits: 
+ text: Credits
+ url: /credits/
+maintain:
+ text: Maintained by
+ dev: Adam DJ Brett
+ url:  https://adamdjbrett.com/
+social:
+    - url: mailto:hello@lyonsBehavioralservices.com
+      icon: fas fa-envelope
+    - url: https://www.linkedin.com/in/montgomery-lyons-69b034199/
+      icon: fab fa-linkedin-in
+    - url: https://goo.gl/maps/wzcTwDqzwWAUU2CB8
+      icon: fab fa-google
+    - url: https://www.psychologytoday.com/us/therapists/montgomery-lyons-ithaca-ny/969384
+      icon: fas fa-brain

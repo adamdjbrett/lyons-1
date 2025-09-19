@@ -1,0 +1,111 @@
+<title>{{title or metadata.title}}</title>
+<meta content="{{title or metadata.title}}" property="og:title">
+<meta content="{{title or metadata.title}}" name="twitter:title">
+<meta content="{{title or metadata.title}}" name="title">
+<meta content="{{title or metadata.title}}" property="og:site_name">
+<meta name="yandex-verification" content="68a680fb08fc5c4f" />
+<meta name="msvalidate.01" content="D927D4DCA9938C1F2F92C3D5D6AC8BDF" />
+<meta content="{{description or metadata.description}}" name="description">
+<meta content="{{description or metadata.description}}" property="facebook:description">
+<meta content="{{description or metadata.description}}" property="og:description">
+<meta content="{{description or metadata.description}}" name="twitter:description">
+<meta property="twitter:card" content="summary_large_image">
+<meta content="{{image or metadata.metasocial.image}}" name="twitter:image">
+<meta content="{{image or metadata.metasocial.image}}" name="facebook:image">
+<meta content="{{image or metadata.metasocial.image}}" name="og:image">
+<link href="{{metadata.favicon}}" rel="icon" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="author" content="{{metadata.author.name}}">
+<meta content="{{metadata.metasocial.facebook}}" property="facebook:author">
+<meta content="{{metadata.metasocial.twitteruser}}" property="twitter:author">
+<meta content="{{metadata.metasocial.twitter}}" name="twitter:site">
+<meta property="og:type" content="website">
+<link rel="canonical" href="{{metadata.url}}{{page.url}}">
+<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+<meta name="language" content="{{metadata.language}}">
+<meta name="locale" content="{{metadata.locale}}">
+<meta property="og:locale" content="{{metadata.locale}}">
+<meta name="generator" content="{{ eleventy.generator }}"> 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","description":"{{metadata.description}}","headline":"{{metadata.title}} - {{metadata.description}}","name":"{{metadata.title}}","url":"{{metadata.url}}{{page.url}}"}</script>
+<link rel="apple-touch-icon" href="{{metadata.favicon}}">
+<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+<style>{% include "css/index.css" %}</style>
+<style>{% getBundle "css" %}</style>
+ <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "WebSite",
+      "name": "Lyons Behavioral Services",
+      "url": "https://www.lyonsbehavioralservices.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <!-- person -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Person",
+    "name": "Montgomery Lyons",
+    "url": "https://www.lyonsbehavioralservices.com/",
+    "image": "https://www.lyonsbehavioralservices.com/assets/img/team/lyons-linkedin.jpg",
+    "sameAs": [
+    "https://www.linkedin.com/in/montgomery-lyons-69b034199/",
+    "https://www.psychologytoday.com/us/therapists/montgomery-lyons-ithaca-ny/969384"
+  ],
+    "jobTitle": "Clinical Psychologist",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "https://www.lyonsbehavioralservices.com/"
+    }
+  }
+  </script>
+  <!-- Business -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Lyons Behavorial Services",
+    "image": "https://www.lyonsbehavioralservices.com/assets/img/team/lyons-linkedin.jpg",
+    "@id": "",
+    "url": "https://www.lyonsbehavioralservices.com/",
+    "telephone": "+16072808241",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "416 N. Tioga St.",
+      "addressLocality": "Ithaca",
+      "addressRegion": "NY",
+      "postalCode": "14850",
+      "addressCountry": "US"
+    } ,
+    "sameAs": [
+    "https://goo.gl/maps/wzcTwDqzwWAUU2CB8",
+    "https://www.psychologytoday.com/us/therapists/montgomery-lyons-ithaca-ny/969384",
+    "https://www.linkedin.com/in/montgomery-lyons-69b034199/"
+    ]
+  }
+  </script>
+  {% if metadata.google_analytics %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ metadata.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "{{ metadata.google_analytics }}");
+  </script>
+  <!-- End Google Analytics -->
+  {% endif %}

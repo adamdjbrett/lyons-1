@@ -1,0 +1,16 @@
+title: Lyons Psychological Services
+description: "Psychological services for adult and adolescents."
+url: "https://www.lyonspsychologicalservices.com"
+language: "en"
+locale: "en_US"
+image: "/apple-touch-icon.png"
+favicon: "/apple-touch-icon.png"
+metasocial:
+  facebook: https://facebook.com/user
+  twitter: https://twitter.com/user
+  tweet: "@user"
+google_analytics: 
+author:
+ name: "Dr. Montgomery Lyons"
+ email: "hello@lyonspsychologicalservices.com"
+ url: "https://www.lyonspsychologicalservices.com"

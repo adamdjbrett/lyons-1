@@ -1,0 +1,8 @@
+section: clients
+list:
+    - title: Syracuse University
+      url: https://syracuse.edu
+      logo: /assets/img/schools/syracuse-university.png
+    - title: William James College
+      url: https://www.williamjames.edu/
+      logo: /assets/img/schools/wjc.png

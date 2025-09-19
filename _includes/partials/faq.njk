@@ -1,0 +1,23 @@
+<section class="container" id="{{ faq.section }}">
+  <div class="faq_answers wrap_section">
+    <h1 style="text-align:center">{{ faq.title }}</h1>
+    <hr>
+    <p class="text-center faq_intro">{{ faq.intro }}</p>
+    <div class="accordion col-md-10 mx-auto" id="accordion">
+      {% for item in faq.items %}
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading{{ item.sort }}">
+          <button class="accordion-button collapsed bg-primary text-dark border-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ item.sort }}" aria-expanded="false" aria-controls="collapse{{ item.sort }}">
+            <strong>{{ item.question |safe }}</strong>
+          </button>
+        </h2>
+        <div id="collapse{{ item.sort }}" class="accordion-collapse collapse" aria-labelledby="heading{{ item.sort }}" data-bs-parent="#accordion">
+          <div class="accordion-body card mb-5">
+            <p>{{ item.answer |safe }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

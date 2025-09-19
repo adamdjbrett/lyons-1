@@ -1,0 +1,27 @@
+section: contact
+message: Message*
+email-validation: Please enter your email address.
+name: Name*
+formspree: "https://formspree.io/f/xpzbdgvw"
+subject: Contact Form Submission
+text: For appointments and scheduling call (607) 280-8241.<br /> Our offices are
+    conviently located at 416 N. Tioga St. Ithaca, NY 14850.
+phone: Phone Number
+submit: Send Message
+phone-validation: Please enter your phone number.
+title: Contact Us
+name-validation: Please enter your name.
+email: Email*
+message-validation: Please enter a message.
+footer:
+  legal: Privacy Policy
+  credits: Credits
+  social:
+    - url: mailto:hello@lyonsBehavioralservices.com
+      icon: fas fa-envelope
+    - url: https://www.linkedin.com/in/montgomery-lyons-69b034199/
+      icon: fab fa-linkedin-in
+    - url: https://goo.gl/maps/wzcTwDqzwWAUU2CB8
+      icon: fab fa-google
+    - url: https://www.psychologytoday.com/us/therapists/montgomery-lyons-ithaca-ny/969384
+      icon: fas fa-brain
