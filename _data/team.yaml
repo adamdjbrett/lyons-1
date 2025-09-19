@@ -9,7 +9,7 @@ people:
       role: Clinical Psychologist
       image: /assets/img/montgomery-lyons-02-sq.jpg
       social:
-        - url: mailto:hello@lyonsBehavioralservices.com
+        - url: mailto:hello@lyonsPsychologicalservices.com
           icon: fas fa-envelope
         - url: https://www.linkedin.com/in/montgomery-lyons-psy-d-69b034199/
           icon: fab fa-linkedin-in
