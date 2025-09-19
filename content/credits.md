@@ -2,12 +2,15 @@
 title: Credits
 eleventyExcludeFromCollections: true
 ---
+## Lyons Psychological Services, PLLC Credits
 
 ## Site Credits:
 - Site by [Adam DJ Brett](https://adamdjbrett.com)
 
 ## Theme
-- The Theme is [Agnecy Bootstrap](https://startbootstrap.com/theme/agency) which has been developed for Jekyll by many people. This site is running [@raviriley](https://github.com/raviriley/agency-jekyll-theme)'s version.
+- The Theme is [Agnecy Bootstrap](https://startbootstrap.com/theme/agency) which has been developed for Jekyll by many people. This site is running [@raviriley](https://github.com/raviriley/agency-jekyll-theme)'s version. 
+
+- This site was converted from Jekyll to Eleventy and updated to the most current version of Agency Bootstrap by [Creativitas.dev](https://www.creativitas.dev/)
 
 ## Favicon
 This favicon was generated using the following font:
